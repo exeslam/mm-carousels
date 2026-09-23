@@ -2,6 +2,7 @@
 
     python3 scripts/build.py specs/mm-5-phrases-chatgpt.json
 
+Другая дизайн-система: python3 scripts/build.py specs/<id>.json <design>  → releases/<id>--<design>
 Рендер PNG после сборки: node scripts/render.mjs releases/<id>
 Формат спеки — в README.md, раздел «Спека карусели».
 """
@@ -11,17 +12,30 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A = os.path.join(ROOT, 'assets')
 spec_path = sys.argv[1]
 spec = json.load(open(spec_path))
+design = (sys.argv[2] if len(sys.argv) > 2 else None) or spec.get('design', 'mm-apple')
+DS = os.path.join(ROOT, 'design-system', design)
+system = json.load(open(os.path.join(DS, 'system.json')))
 rid = spec.get('id') or os.path.splitext(os.path.basename(spec_path))[0]
+if design != spec.get('design', 'mm-apple'):
+    rid = f'{rid}--{design}'          # та же спека в другой системе — отдельный выпуск для сравнения
 out = os.path.join(ROOT, 'releases', rid)
 os.makedirs(out + '/assets/fonts', exist_ok=True)
 e = html.escape
 
 
+ICON_SET = system.get('icons', 'tabler')
+
+
 def svg(name):
-    return re.sub(r' width="24" height="24"', '', open(f'{A}/icons/tabler/{name}.svg').read())
+    if '/' in name:
+        s_, name = name.split('/', 1)
+    else:
+        s_ = ICON_SET
+        name = system.get('icon_map', {}).get(name, name)
+    return re.sub(r' (width|height)="[^"]*"', '', open(f'{A}/icons/{s_}/{name}.svg').read(), count=2)
 
 
-OK = f'<span class="ok">{svg("circle-check-filled")}</span>'
+OK = f'<span class="ok">{svg(system.get("check_icon", "tabler/circle-check-filled"))}</span>'
 N = 2 + len(spec['items'])
 
 
@@ -38,6 +52,9 @@ S = []
 # 01 · обложка: рендер крупнее кадра, уходит за правый нижний край; стеклянная плашка поверх
 c = spec['cover']
 r = c['render']
+src_render = os.path.join(ROOT, 'releases', spec.get('id') or os.path.splitext(os.path.basename(spec_path))[0], 'assets')
+if not os.path.exists(f'{out}/assets/cover-render.jpg') and os.path.exists(f'{src_render}/cover-render.jpg'):
+    for x in ['cover-render.jpg', 'cover-render.json']: shutil.copy(f'{src_render}/{x}', f'{out}/assets/{x}')
 if not os.path.exists(f'{out}/assets/cover-render.jpg'):
     sys.exit(f'нет {out}/assets/cover-render.jpg — положи рендер и cover-render.json (источник, автор, лицензия)')
 S.append(f'''<section class="slide cover has-render" id="slide-01">{top(1)}
@@ -84,15 +101,15 @@ S.append(f'''<section class="slide final" id="slide-{N:02d}">{top(N)}
   {foot(spec.get("tagline", "строим контент-машину в открытую"), spec["handle"])}</section>''')
 
 open(out + '/source.html', 'w').write(
-    '<!doctype html>\n<html lang="ru">\n<head><meta charset="utf-8"><link rel="stylesheet" href="./mm-apple.css"></head>\n<body>\n'
-    + '\n\n'.join(S) + '\n<script src="./liquid.js"></script>\n</body>\n</html>\n')
-for x in ['mm-apple.css', 'liquid.js']:
-    shutil.copy(f'{ROOT}/design-system/{x}', out)
-shutil.copy(f'{A}/fonts/Inter/inter-cyrillic-wght-normal.woff2', out + '/assets/fonts/Inter-Cyrillic.woff2')
-shutil.copy(f'{A}/fonts/Inter/inter-latin-wght-normal.woff2', out + '/assets/fonts/Inter-Latin.woff2')
+    f'<!doctype html>\n<html lang="ru">\n<head><meta charset="utf-8"><link rel="stylesheet" href="./{system["css"]}"></head>\n<body class="ds-{design}">\n'
+    + '\n\n'.join(S) + '\n' + ''.join(f'<script src="./{x}"></script>\n' for x in system.get('scripts', [])) + '</body>\n</html>\n')
+for x in [system['css']] + system.get('scripts', []):
+    shutil.copy(f'{DS}/{x}', out)
+for src, dst in system['fonts']:
+    shutil.copy(os.path.join(ROOT, src), out + '/assets/fonts/' + dst)
 labels = ['обложка'] + [re.sub('<[^>]+>', '', it.get('label', it['h']))[:28] for it in spec['items']] + ['итог']
-json.dump({'id': rid, 'title': spec['title'], 'account': spec['handle'], 'status': spec.get('status', 'awaiting-review'),
-           'cover': json.load(open(out + '/assets/cover-render.json')), 'icons': 'Tabler (MIT)', 'font': 'Inter (OFL)',
+json.dump({'id': rid, 'design': design, 'title': spec['title'], 'account': spec['handle'], 'status': spec.get('status', 'awaiting-review'),
+           'cover': json.load(open(out + '/assets/cover-render.json')), 'icons': system.get('icons_label', 'Tabler (MIT)'), 'font': system.get('font_label', 'Inter (OFL)'),
            'slides': [{'id': f'{i + 1:02d}', 'label': l} for i, l in enumerate(labels)]},
           open(out + '/meta.json', 'w'), ensure_ascii=False, indent=2)
 if spec.get('caption'):

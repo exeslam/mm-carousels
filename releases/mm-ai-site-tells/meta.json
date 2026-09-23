@@ -1,5 +1,6 @@
 {
   "id": "mm-ai-site-tells",
+  "design": "mm-apple",
   "title": "Сайт от нейросети видно сразу",
   "account": "@mm.machine.ru",
   "status": "awaiting-review",

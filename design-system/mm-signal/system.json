@@ -1,0 +1,15 @@
+{
+  "name": "mm-signal",
+  "title": "Сигнальный широкий капс (по мотивам айдентики МТС)",
+  "css": "style.css",
+  "scripts": [],
+  "fonts": [
+    ["assets/fonts/RobotoFlex/RobotoFlex-cyr-lat.woff2", "RobotoFlex-cyr-lat.woff2"],
+    ["assets/fonts/Onest/onest-cyrillic-wght-normal.woff2", "Onest-Cyrillic.woff2"],
+    ["assets/fonts/Onest/onest-latin-wght-normal.woff2", "Onest-Latin.woff2"]
+  ],
+  "icons": "tabler",
+  "icons_label": "Tabler (MIT)",
+  "font_label": "Roboto Flex + Onest (OFL)",
+  "check_icon": "tabler/circle-check-filled"
+}

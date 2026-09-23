@@ -1,0 +1,116 @@
+/* mm-signal · дизайн-язык по мотивам айдентики МТС (2023): одна горячая краска на нейтральной шкале,
+   широкий гротеск капсом с интервалом 1.0, крупные скругления, контраст «тёплое / холодное», модульная сетка.
+   НЕ берём: логотип-квадрат и буквы М/Т/С по углам кадра, фирменный красный #FF0032 (зарегистрированный цвет),
+   шрифты MTS Sans / Normalidad, их 3D, фото и иконки, название компании.
+   Шрифты: Roboto Flex (OFL) в широком начертании wdth 140 — заголовки; Onest (OFL) — текст. Иконки Tabler (MIT). */
+@font-face{font-family:Flex;font-weight:100 1000;font-stretch:25% 151%;src:url('./assets/fonts/RobotoFlex-cyr-lat.woff2') format('woff2')}
+@font-face{font-family:Onest;font-weight:100 900;src:url('./assets/fonts/Onest-Cyrillic.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Onest;font-weight:100 900;src:url('./assets/fonts/Onest-Latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2190-2199,U+2212,U+2248,U+00D7}
+
+:root{
+  --accent:#FF4A1C;      /* сигнальный красно-оранжевый — намеренно не #FF0032 */
+  --accent-ink:#FFFFFF;
+  --cool:#2E5BFF;        /* холодный акцент: одна деталь на слайд */
+  --ink:#131416; --ink-2:#3A3D42; --muted:#7C818A;
+  --paper:#F4F1EB;       /* тёплая бумага (у МТС холодный серый) */
+  --card:#FFFFFF; --line:#DDD8CF; --sand:#EAE4DA; --night:#0E0F11;
+  --r-s:16px; --r-m:28px; --r-l:48px; --gap:20px;
+}
+*{box-sizing:border-box}html,body{margin:0;background:#0e0f11}h1,h2,h3,p{margin:0}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;isolation:isolate;background:var(--paper);color:var(--ink);
+  font-family:Onest,Arial,sans-serif;letter-spacing:.005em;padding:64px 72px 56px;display:flex;flex-direction:column;gap:var(--gap)}
+.slide svg{width:100%;height:100%}
+.wide{font-family:Flex,sans-serif;font-stretch:140%;text-transform:uppercase}
+
+/* верх: хэндл и счётчик — пилюли; углы кадра свободны */
+.top{display:flex;justify-content:space-between;align-items:center;height:56px}
+.pill{display:inline-flex;align-items:center;gap:12px;height:52px;padding:0 24px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);
+  font:600 20px/1 Onest,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.dot{width:12px;height:12px;border-radius:50%;background:var(--accent)}
+
+/* заголовки: широкий гротеск капсом, интервал 1.0, трекинг не отрицательный */
+.head{padding:26px 0 4px}
+.head h1{font-family:Flex,sans-serif;font-stretch:140%;font-weight:650;text-transform:uppercase;font-size:66px;line-height:1.0;letter-spacing:0}
+.head h1 b{font-weight:650;color:var(--accent)}
+.head p{margin-top:26px;font:400 32px/1.42 Onest,sans-serif;color:var(--ink-2);max-width:900px}
+
+/* карточки: белые с тонкой линией, крупное скругление; акцент — сплошной блок */
+.t{position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r-l);padding:36px 40px;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.t.blue{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.t.ice{background:var(--sand);border-color:var(--sand)}
+.lbl{font:600 20px/1.3 Onest,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.t.blue .lbl{color:rgba(255,255,255,.82)}
+.t h3{font:600 40px/1.18 Onest,sans-serif;margin-top:12px}
+.t p{font:400 28px/1.45 Onest,sans-serif;margin-top:12px;color:var(--ink-2)}
+.foot{display:flex;justify-content:space-between;align-items:center;height:52px;margin-top:auto}
+.foot span{font:600 18px/1 Onest,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.foot .next{padding:16px 26px;border-radius:999px;background:var(--ink);color:#fff}
+.foot span:empty{visibility:hidden}
+
+/* ── обложка: рендер в большой скруглённой раме, уходит за правый нижний край; акцентная полоса ── */
+.cover .head h1{font-size:88px;line-height:1.0}
+.cover .head{position:relative;z-index:2}
+.cover .cover-render{position:absolute;z-index:0;max-width:none;object-fit:cover;
+  width:980px!important;height:820px!important;left:300px!important;top:690px!important;border-radius:64px}
+.cover:before{content:"";position:absolute;z-index:1;left:300px;top:690px;width:26px;height:520px;border-radius:0 0 0 0;background:var(--accent)}
+.cover:after{content:"";position:absolute;z-index:1;left:72px;top:690px;width:200px;height:200px;border-radius:50%;background:var(--cool)}
+.cover .chip{position:absolute;z-index:3;left:72px;bottom:140px;width:420px;background:var(--accent);border-color:var(--accent);color:#fff;border-radius:var(--r-m)}
+.cover .chip .lbl{color:rgba(255,255,255,.85)}
+.cover .chip h3{font-size:34px}
+.cover .foot{position:relative;z-index:3}
+
+/* ── пункт: номер — холодная деталь, широкий заголовок, блоки ── */
+.item .idx{height:96px;min-width:96px;padding:0 30px;display:inline-grid;place-items:center;align-self:flex-start;margin-top:30px;border-radius:999px;background:var(--cool);color:#fff;
+  font-family:Flex,sans-serif;font-stretch:140%;font-weight:700;font-size:48px;line-height:1}
+.item .head h1{font-size:64px}
+.item .stack{flex:1;min-height:0;margin-top:30px;display:flex;flex-direction:column;gap:var(--gap)}
+.item .stack>.t,.item .row2{flex:1}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+.row2 .t{height:100%;justify-content:center}
+.item .stack>.t:not(.chat){justify-content:center}
+.quote{font:600 44px/1.26 Onest,sans-serif}
+.bad{font:400 36px/1.4 Onest,sans-serif;color:var(--muted);text-decoration:line-through;text-decoration-color:var(--accent);text-decoration-thickness:3px}
+
+/* чат: тёмный и акцентный пузыри, прямоугольнее — «машинный» характер */
+.chat{justify-content:flex-end;gap:18px;background:var(--sand)!important;border-color:var(--sand)!important}
+.chat .lbl{margin-bottom:auto}
+.msg{max-width:84%;padding:26px 32px;border-radius:28px;font:500 31px/1.38 Onest,sans-serif}
+.msg.me{align-self:flex-end;background:var(--accent);color:#fff;border-bottom-right-radius:6px}
+.msg.ai{align-self:flex-start;background:var(--card);color:var(--ink);border-bottom-left-radius:6px}
+.msg.ctx{background:var(--ink);color:#fff}
+
+/* мини-макеты */
+.demo-card{justify-content:flex-start!important}
+.demo{flex:1;display:flex;align-items:center;justify-content:center;margin-top:18px;min-height:0}
+.demo-cap{margin-top:18px!important;font-size:28px!important}
+.m-grad{width:100%;height:100%;border-radius:24px;background:linear-gradient(135deg,#7B2FF7,#C43AD6 55%,#F76B8A);display:flex;flex-direction:column;justify-content:center;gap:14px;padding:28px}
+.m-grad i{display:block;height:18px;border-radius:9px;background:rgba(255,255,255,.85)}.m-grad i:nth-child(1){width:80%;height:26px}.m-grad i:nth-child(2){width:60%}.m-grad b{align-self:flex-start;margin-top:10px;padding:12px 22px;border-radius:999px;background:#fff;color:#7B2FF7;font:700 20px Onest}
+.m-emoji{display:flex;flex-direction:column;gap:16px;width:100%}.m-emoji div{display:flex;align-items:center;gap:14px;font:600 36px Onest}.m-emoji img{width:64px;height:64px}
+.m-cards{display:grid;gap:12px;width:100%}.m-cards div{border-radius:18px;background:var(--sand);padding:22px 24px;font:600 34px Onest;color:var(--ink-2)}
+.m-btn{padding:24px 56px;border-radius:999px;background:var(--muted);color:#fff;font:600 34px Onest}
+.m-text{font:400 30px/1.45 Onest;color:var(--ink-2)}
+.m-photo{width:100%;height:100%;border-radius:24px;background:var(--sand);display:grid;place-items:center;color:var(--muted);position:relative}
+.m-photo svg{width:130px;height:130px}.m-photo span{position:absolute;bottom:14px;right:18px;font:600 16px Onest;letter-spacing:.1em}
+.m-ui{width:100%;display:flex;flex-direction:column;gap:18px}
+.m-url{display:flex;align-items:center;gap:14px;padding:20px 26px;border-radius:999px;background:var(--sand);font:500 28px Onest;color:var(--ink-2)}
+.m-url svg{width:32px;height:32px}
+.m-cta{align-self:flex-start;display:flex;align-items:center;gap:12px;padding:22px 34px;border-radius:999px;background:var(--cool);color:#fff;font:600 30px Onest}
+.m-cta svg{width:32px;height:32px}
+.m-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;width:100%}
+.m-thumbs div{aspect-ratio:16/9;border-radius:18px;background:var(--ink);display:grid;place-items:center;color:#fff}.m-thumbs svg{width:46px;height:46px}
+.m-arrow{display:flex;justify-content:center;color:var(--accent)}.m-arrow svg{width:46px;height:46px}
+.m-cite{display:flex;gap:12px;flex-wrap:wrap}.m-cite span{padding:12px 20px;border-radius:999px;background:var(--cool);color:#fff;font:600 24px Onest}
+
+/* ── финал: тёмный слайд, список, акцентная кнопка-пилюля ── */
+.final{background:var(--night);color:#fff}
+.final .pill{background:transparent;border-color:rgba(255,255,255,.25);color:#fff}
+.final .head h1{font-size:72px}
+.final .list{margin-top:36px;flex:1;display:flex;flex-direction:column;gap:14px}
+.final .li{flex:1;flex-direction:row;align-items:center;gap:26px;padding:22px 34px;border-radius:var(--r-m);background:#1b1d21;border-color:#2a2d33}
+.ok{width:52px;height:52px;flex:none;color:var(--accent);display:block}.ok svg{width:100%;height:100%}
+.final .li b{font:600 36px/1.2 Onest,sans-serif;color:#fff}
+.final .save{flex:none;padding:32px 40px;border-radius:999px;background:var(--accent);border-color:var(--accent);flex-direction:row;align-items:center;justify-content:space-between}
+.final .save .lbl{color:rgba(255,255,255,.85)}
+.final .save h3{font-family:Flex,sans-serif;font-stretch:140%;text-transform:uppercase;font-weight:650;font-size:36px;margin:0}
+.final .foot span{color:rgba(255,255,255,.5)}.final .foot .next{background:#fff;color:var(--ink)}
+.cover .foot span:first-child{visibility:hidden}

@@ -1,0 +1,12 @@
+{
+  "name": "mm-expressive",
+  "title": "Material 3 Expressive (язык Google)",
+  "css": "style.css",
+  "scripts": [],
+  "fonts": [["assets/fonts/GoogleSans/GoogleSans-cyr-lat.woff2", "GoogleSans-cyr-lat.woff2"]],
+  "icons": "material-rounded",
+  "icons_label": "Material Symbols Rounded (Apache-2.0)",
+  "font_label": "Google Sans (OFL)",
+  "check_icon": "material-rounded/check_circle",
+  "icon_map": {"users": "group", "player-play": "play_circle", "lock": "lock", "plus": "add", "arrow-down": "arrow_downward", "file-text": "description"}
+}

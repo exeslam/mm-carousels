@@ -1,0 +1,11 @@
+{
+  "name": "mm-apple",
+  "title": "Apple HIG + Liquid Glass",
+  "css": "style.css",
+  "scripts": ["liquid.js"],
+  "fonts": [
+    ["assets/fonts/Inter/inter-cyrillic-wght-normal.woff2", "Inter-Cyrillic.woff2"],
+    ["assets/fonts/Inter/inter-latin-wght-normal.woff2", "Inter-Latin.woff2"]
+  ],
+  "check_icon": "tabler/circle-check-filled"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mm-5-phrases-chatgpt--mm-signal",
+  "design": "mm-signal",
+  "title": "5 фраз для ChatGPT",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": {
+    "source": "https://unsplash.com/photos/Hd91p0EzYK8",
+    "author": "muriel_1",
+    "license": "Unsplash License (free commercial use, no attribution required)",
+    "downloaded": "2026-09-23"
+  },
+  "icons": "Tabler (MIT)",
+  "font": "Roboto Flex + Onest (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "спросит"
+    },
+    {
+      "id": "03",
+      "label": "вступления"
+    },
+    {
+      "id": "04",
+      "label": "не знаю"
+    },
+    {
+      "id": "05",
+      "label": "3 варианта"
+    },
+    {
+      "id": "06",
+      "label": "критика"
+    },
+    {
+      "id": "07",
+      "label": "итог"
+    }
+  ]
+}

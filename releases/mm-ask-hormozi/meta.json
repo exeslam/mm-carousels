@@ -1,5 +1,6 @@
 {
   "id": "mm-ask-hormozi",
+  "design": "mm-apple",
   "title": "Спроси совета у Хормози",
   "account": "@mm.machine.ru",
   "status": "awaiting-review",
