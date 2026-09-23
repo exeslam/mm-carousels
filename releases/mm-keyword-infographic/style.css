@@ -1,0 +1,303 @@
+/* MM Carousels · дизайн-система mm-apple (одним файлом). Порядок секций важен: каждая следующая уточняет предыдущую. */
+
+/* ========== 1. Основа: Apple HIG — системные цвета, типографика Inter, сгруппированные карточки, столбики, списки ========== */
+/* ds-mm-apple · MM (@mm.machine / @mm.machine.ru)
+   По принципам Apple HIG (clarity, deference, depth, Liquid Glass) — на своих ассетах.
+   Файлы Apple (SF Pro, New York, SF Symbols, UI kits) НЕ используются: их лицензия только для макетов приложений под Apple.
+   Шрифт: Inter (ближайший открытый аналог SF Pro). Трекинг не отрицательный. */
+@font-face{font-family:InterMM;font-weight:100 900;src:url('./assets/fonts/Inter-Cyrillic.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:InterMM;font-weight:100 900;src:url('./assets/fonts/Inter-Latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2190-2199,U+2212,U+2215,U+2248,U+00D7,U+00F7,U+2713,U+25CF}
+
+:root{
+  /* системные цвета iOS (значения светлой темы) */
+  --bg:#F2F2F7;            /* systemGroupedBackground */
+  --card:#FFFFFF;          /* secondarySystemGroupedBackground */
+  --label:#000000;
+  --label2:rgba(60,60,67,.62);   /* secondaryLabel */
+  --label3:rgba(60,60,67,.36);   /* tertiaryLabel */
+  --sep:rgba(60,60,67,.18);      /* separator */
+  --fill:rgba(120,120,128,.14);  /* systemFill для пустых треков */
+  --blue:#007AFF;          /* systemBlue */
+  --indigo:#5856D6;        /* systemIndigo */
+  --green:#34C759;         /* systemGreen */
+  --orange:#FF9500;        /* systemOrange */
+  --red:#FF3B30;           /* systemRed */
+  --tint:#E8F1FF;          /* светлая заливка systemBlue */
+  --dark:#1C1C1E;          /* тёмная карточка (systemGray6 dark) */
+  --r:38px;                /* непрерывное скругление карточек */
+  --gap:18px;
+}
+*{box-sizing:border-box}html,body{margin:0;background:#101012}h1,h2,h3,p{margin:0}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;isolation:isolate;background:var(--bg);color:var(--label);
+  font-family:InterMM,Inter,-apple-system,"Helvetica Neue",Arial,sans-serif;letter-spacing:.005em;
+  padding:54px 58px 50px;display:flex;flex-direction:column;gap:var(--gap);-webkit-font-smoothing:antialiased}
+/* глубина: мягкие цветовые пятна за стеклом, как обои под Liquid Glass */
+.slide:before{content:"";position:absolute;z-index:-1;width:820px;height:820px;right:-300px;top:-380px;border-radius:50%;
+  background:radial-gradient(circle at 40% 40%,rgba(0,122,255,.30),rgba(88,86,214,.16) 45%,rgba(242,242,247,0) 70%);filter:blur(10px)}
+.slide:after{content:"";position:absolute;z-index:-1;width:700px;height:700px;left:-320px;bottom:-360px;border-radius:50%;
+  background:radial-gradient(circle,rgba(90,200,250,.20),rgba(242,242,247,0) 68%)}
+
+/* стеклянные капсулы сверху */
+.top{display:flex;justify-content:space-between;align-items:center;height:52px}
+.pill{display:inline-flex;align-items:center;gap:10px;height:50px;padding:0 22px;border-radius:999px;
+  background:rgba(255,255,255,.55);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);
+  border:1px solid rgba(255,255,255,.8);box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 8px 24px rgba(0,0,0,.06);
+  font:600 19px/1 InterMM,sans-serif;letter-spacing:.01em;color:var(--label)}
+.dot{width:12px;height:12px;border-radius:50%;background:var(--blue)}
+
+/* Large Title */
+.head{padding:22px 4px 8px}
+.head h1{font:700 72px/1.1 InterMM,sans-serif;letter-spacing:.002em}
+.head h1 b{font-weight:700;color:var(--blue)}
+.head p{margin-top:18px;font:400 27px/1.42 InterMM,sans-serif;color:var(--label2);max-width:900px}
+.head.xl h1{font-size:90px;line-height:1.05}
+
+/* сгруппированные карточки (inset grouped) в сетке */
+.bento{flex:1;min-height:0;display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:1fr;gap:var(--gap)}
+.bento.data-top{grid-template-rows:1.35fr 1fr;grid-auto-rows:auto}
+.t{background:var(--card);border-radius:var(--r);padding:32px 34px;display:flex;flex-direction:column;min-height:0;overflow:hidden;position:relative;
+  box-shadow:0 1px 2px rgba(0,0,0,.04),0 12px 32px rgba(0,0,0,.05)}
+.t.ice{background:var(--tint);box-shadow:none}
+.t.blue{background:var(--blue);color:#fff;box-shadow:0 18px 40px rgba(0,122,255,.28)}
+.t.navy{background:var(--dark);color:#fff}
+.s2{grid-column:span 2}.s3{grid-column:span 3}.s4{grid-column:span 4}.s6{grid-column:span 6}.r2{grid-row:span 2}
+
+/* заголовок секции, как над группой в Настройках */
+.lbl{font:600 17px/1.3 InterMM,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--label2)}
+.t.blue .lbl{color:rgba(255,255,255,.78)}.t.navy .lbl{color:rgba(235,235,245,.6)}
+.big{font:700 130px/1 InterMM,sans-serif;letter-spacing:0;margin-top:auto}
+.big.m{font-size:98px}.big.s{font-size:74px}
+.t h3{font:650 40px/1.18 InterMM,sans-serif;letter-spacing:.003em;margin-top:14px}
+.t p{font:400 26px/1.42 InterMM,sans-serif;margin-top:12px;color:var(--label2)}
+.t.blue p{color:rgba(255,255,255,.9)}.t.navy p{color:rgba(235,235,245,.72)}
+.t .num+h3,.t .tick+h3{margin-top:auto}
+.num{font:600 22px/1 InterMM,sans-serif;color:var(--blue);letter-spacing:.03em;text-transform:uppercase;
+  align-self:flex-start;background:var(--tint);padding:10px 16px;border-radius:999px}
+.t.blue .num{background:rgba(255,255,255,.2);color:#fff}
+.foot-note{margin-top:auto!important;font:500 19px/1.4 InterMM,sans-serif!important;color:var(--label3)!important}
+.t.blue .foot-note{color:rgba(255,255,255,.7)!important}.t.navy .foot-note{color:rgba(235,235,245,.5)!important}
+
+/* столбики как в «Экранном времени» */
+.bars{display:flex;flex-direction:column;justify-content:space-evenly;flex:1;margin-top:8px}
+.bar{display:grid;grid-template-columns:230px 1fr 150px;align-items:center;gap:20px}
+.bar .name{font:500 25px/1.2 InterMM,sans-serif}
+.bar .track{height:40px;border-radius:999px;background:var(--fill);overflow:hidden}
+.bar .track i{display:block;height:100%;min-width:14px;border-radius:999px;background:rgba(0,122,255,.38)}
+.bar.hot .track i{background:var(--blue)}
+.bar .v{font:700 40px/1 InterMM,sans-serif;text-align:right}
+.bar.hot .v{color:var(--blue)}
+.bar .n{display:block;font:500 16px/1 InterMM,sans-serif;color:var(--label3);margin-top:6px}
+
+.meter{height:56px;border-radius:999px;background:var(--fill);overflow:hidden;margin-top:26px}
+.meter i{display:block;height:100%;background:var(--blue);border-radius:999px;min-width:56px}
+.legend{display:flex;justify-content:space-between;margin-top:18px;font:500 23px/1.2 InterMM,sans-serif;color:var(--label2)}
+.legend b{font-weight:700;color:var(--blue)}
+
+/* строки списка с разделителями */
+.kv{margin-top:16px;display:flex;flex-direction:column;flex:1;justify-content:center}
+.kv div{display:flex;justify-content:space-between;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--sep);font:400 27px/1.2 InterMM,sans-serif}
+.t.navy .kv div{border-color:rgba(84,84,88,.6)}
+.kv div:last-child{border-bottom:0}
+.kv span{color:inherit}.kv b{font-weight:600}.kv b.hi{color:#0A84FF}
+.t:not(.navy) .kv span{color:var(--label2)}
+
+/* галочка: круг systemBlue */
+.tick{width:46px;height:46px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font:700 24px/1 InterMM,sans-serif}
+.t.blue .tick{background:#fff;color:var(--blue)}
+
+.foot{display:flex;justify-content:space-between;align-items:center;height:40px;font:500 18px/1 InterMM,sans-serif;letter-spacing:.01em;color:var(--label3)}
+.foot .next{color:var(--blue);font-weight:600}
+
+/* ========== 2. Liquid Glass — стеклянные карточки, блик, ободок, читаемость (фигуры .wall отключены в п.3) ========== */
+/* ds-mm-apple · Liquid Glass (подключается ПОСЛЕ apple.css, вместе с liquid.js).
+   Liquid Glass ≠ матовое стекло: фон под карточкой ВИДЕН (лёгкий blur), по краям он преломляется линзой (liquid.js),
+   сверху блик, по контуру светящийся ободок. Поэтому обои чёткие и цветные — иначе преломлять нечего. */
+
+.slide{background:linear-gradient(165deg,#EEF2FF 0%,#E6ECFF 40%,#EFE9FF 100%)}
+.slide:before,.slide:after{display:none}
+
+/* обои: чёткие цветные фигуры + тонкая сетка (сетка показывает изгиб линзы) */
+.wall{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
+  background-image:linear-gradient(rgba(40,60,140,.07) 1.5px,transparent 1.5px),linear-gradient(90deg,rgba(40,60,140,.07) 1.5px,transparent 1.5px);
+  background-size:54px 54px}
+.wall i{position:absolute;border-radius:50%}
+.wall .a{width:620px;height:620px;right:-170px;top:430px;background:linear-gradient(140deg,#2F7BFF,#1C4FE0)}
+.wall .b{width:520px;height:520px;left:-150px;top:760px;background:linear-gradient(140deg,#8B6CFF,#5B3DF0)}
+.wall .c{width:420px;height:420px;right:120px;bottom:-190px;background:linear-gradient(140deg,#4FD7FF,#18A8E8)}
+.wall .d{width:300px;height:300px;left:330px;top:1000px;background:linear-gradient(140deg,#FF8FC4,#FF5A9E)}
+.wall .e{width:240px;height:240px;right:40px;top:-70px;background:linear-gradient(140deg,#FFC24D,#FF9500)}
+.slide:nth-of-type(even) .wall .a{right:auto;left:-190px;top:470px}
+.slide:nth-of-type(even) .wall .b{left:auto;right:-160px;top:820px;background:linear-gradient(140deg,#4FD7FF,#18A8E8)}
+.slide:nth-of-type(even) .wall .c{right:auto;left:260px;bottom:-230px;background:linear-gradient(140deg,#8B6CFF,#5B3DF0)}
+.slide:nth-of-type(even) .wall .d{left:auto;right:300px;top:1030px}
+.slide:nth-of-type(even) .wall .e{right:auto;left:640px;top:-90px}
+
+/* стекло: почти прозрачное, преломление даёт liquid.js; здесь — тонировка, блик и ободок */
+.t{background:linear-gradient(150deg,rgba(255,255,255,.52),rgba(255,255,255,.30));border:0;
+  box-shadow:0 30px 60px rgba(20,30,90,.16),0 3px 8px rgba(20,30,90,.08),
+             inset 0 2px 1px rgba(255,255,255,.9),inset 0 -2px 3px rgba(255,255,255,.35),
+             inset 0 0 24px rgba(255,255,255,.35)}
+.t:before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:radial-gradient(90% 55% at 18% 0%,rgba(255,255,255,.55),rgba(255,255,255,0) 60%),
+             radial-gradient(60% 40% at 100% 100%,rgba(255,255,255,.22),rgba(255,255,255,0) 70%)}
+.t:after{content:"";position:absolute;inset:0;border-radius:inherit;padding:2px;pointer-events:none;
+  background:linear-gradient(135deg,#fff 0%,rgba(255,255,255,.35) 22%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.35) 78%,#fff 100%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.t>*{position:relative}
+.t.ice{background:linear-gradient(150deg,rgba(230,240,255,.55),rgba(210,225,255,.30))}
+.t.blue{background:linear-gradient(150deg,rgba(0,122,255,.80),rgba(50,90,255,.66));
+  box-shadow:0 30px 60px rgba(0,80,255,.32),inset 0 2px 1px rgba(255,255,255,.6),inset 0 0 24px rgba(255,255,255,.18)}
+.t.blue:before{background:radial-gradient(90% 55% at 18% 0%,rgba(255,255,255,.32),rgba(255,255,255,0) 60%)}
+.t.navy{background:linear-gradient(150deg,rgba(22,24,34,.80),rgba(24,30,60,.68));
+  box-shadow:0 30px 60px rgba(10,14,50,.35),inset 0 2px 1px rgba(255,255,255,.3),inset 0 0 24px rgba(255,255,255,.06)}
+.t.navy:before{background:radial-gradient(90% 55% at 18% 0%,rgba(255,255,255,.14),rgba(255,255,255,0) 60%)}
+.t.navy:after,.t.blue:after{opacity:.6}
+
+/* текст на стекле: плотнее, чтобы читался поверх цветных фигур */
+.t p{color:rgba(20,22,40,.8)}
+.lbl{color:rgba(20,22,40,.66)}
+.head p{color:rgba(20,22,40,.72)}
+.foot{color:rgba(20,22,40,.6)}
+.foot-note{color:rgba(20,22,40,.55)!important}
+
+/* капсулы сверху — прозрачное стекло с линзой */
+.pill{background:rgba(255,255,255,.34);border:0;position:relative;
+  box-shadow:0 12px 30px rgba(20,30,90,.14),inset 0 1.5px 1px rgba(255,255,255,.95),inset 0 0 14px rgba(255,255,255,.4)}
+.num{background:rgba(255,255,255,.5);box-shadow:inset 0 1.5px 0 #fff,0 4px 10px rgba(20,30,90,.08)}
+.bar .track,.meter{background:rgba(255,255,255,.4);box-shadow:inset 0 1px 3px rgba(20,30,90,.14)}
+.bar .track i,.meter i{box-shadow:inset 0 2px 1px rgba(255,255,255,.5)}
+.kv div{border-color:rgba(40,40,80,.14)}.t.navy .kv div{border-color:rgba(255,255,255,.14)}
+.tick{box-shadow:inset 0 2px 1px rgba(255,255,255,.55),0 6px 14px rgba(0,122,255,.35)}
+
+/* читаемость (HIG: glass keeps content legible) — плотнее тонировка, светлее фигуры */
+.t{background:linear-gradient(150deg,rgba(255,255,255,.66),rgba(255,255,255,.46))}
+.t.ice{background:linear-gradient(150deg,rgba(236,243,255,.7),rgba(220,232,255,.5))}
+.wall .a{background:linear-gradient(140deg,#5B97FF,#3A6CF0)}
+.slide:nth-of-type(even) .wall .c,.wall .b{background:linear-gradient(140deg,#A48CFF,#7C62F5)}
+.slide:nth-of-type(even) .wall .b,.wall .c{background:linear-gradient(140deg,#7FE0FF,#3DBDF0)}
+.wall .d{background:linear-gradient(140deg,#FFA9D2,#FF7AB4)}
+/* нижняя строка — стеклянные капсулы, чтобы подпись не лежала на цветных фигурах */
+.foot span{padding:11px 18px;border-radius:999px;background:rgba(255,255,255,.62);
+  backdrop-filter:blur(14px) saturate(180%);-webkit-backdrop-filter:blur(14px) saturate(180%);
+  box-shadow:0 8px 20px rgba(20,30,90,.1),inset 0 1.5px 1px rgba(255,255,255,.95)}
+
+/* ========== 3. Без декоративных фигур: мягкий свет на фоне; иконки Tabler в плашках iOS, заливные галочки ========== */
+/* v5: фон без фигур — Apple кладёт стекло на контент/обои, а не на декоративные круги.
+   Мягкий свет, как на системных обоях; стеклу хватает бликов и ободка. */
+.wall{display:none}
+.slide{background:
+  radial-gradient(110% 70% at 85% -5%,#CFE0FF 0%,rgba(207,224,255,0) 62%),
+  radial-gradient(90% 60% at -10% 105%,#E4DEFF 0%,rgba(228,222,255,0) 60%),
+  linear-gradient(180deg,#F3F6FC,#EEF1F8)}
+.t{background:linear-gradient(150deg,rgba(255,255,255,.78),rgba(255,255,255,.58))}
+.t.ice{background:linear-gradient(150deg,rgba(232,241,255,.85),rgba(218,231,255,.65))}
+
+/* иконки (Tabler, MIT) в плашке как в «Настройках» iOS: скруглённый квадрат systemBlue, белый глиф */
+.sym{width:68px;height:68px;border-radius:18px;background:linear-gradient(180deg,#2E8BFF,#0A6CFF);color:#fff;display:grid;place-items:center;flex:none;
+  box-shadow:inset 0 1.5px 1px rgba(255,255,255,.45),0 6px 16px rgba(0,122,255,.28)}
+.sym svg{width:38px;height:38px}.sym svg path{stroke-width:1.9}
+.t.blue .sym{background:rgba(255,255,255,.22);box-shadow:inset 0 1.5px 1px rgba(255,255,255,.5)}
+.t .sym+h3,.t .sym+.lbl+h3,.t .ok+h3{margin-top:auto}
+.sym+.lbl{margin-top:16px}
+/* галочка = заливной круг, как checkmark.circle.fill по смыслу */
+.ok{width:54px;height:54px;color:var(--blue);display:block}
+.ok svg{width:100%;height:100%}
+.t.blue .ok{color:#fff}
+.sym{width:58px;height:58px;border-radius:15px}.sym svg{width:32px;height:32px}
+.t.navy .kv b.hi{color:#7DB8FF}
+.t.navy{background:linear-gradient(150deg,rgba(22,24,34,.86),rgba(24,30,56,.78))}
+
+/* ========== 4. Лёгкий формат: обложка с рендером за край кадра, слайды-пункты, чат, мини-макеты, финал ========== */
+/* ds-mm-apple · «лёгкий» формат (подключается последним): одна мысль на слайд, крупный текст,
+   на обложке графическая доминанта — 3D-объект (3dicons, CC0) над стеклянной карточкой. */
+
+/* обложка */
+.cover .head{padding-top:26px;position:relative;z-index:2}
+.cover .head h1{font-size:98px;line-height:1.04}
+.cover .head p{font-size:32px;margin-top:22px;max-width:760px}
+.hero3d{position:absolute;z-index:1;right:-40px;bottom:150px;width:640px;height:640px;object-fit:contain;
+  filter:drop-shadow(0 50px 60px rgba(20,40,120,.28))}
+.hero-glow{position:absolute;z-index:0;right:40px;bottom:230px;width:520px;height:520px;border-radius:50%;
+  background:radial-gradient(circle,rgba(0,122,255,.30),rgba(0,122,255,0) 68%)}
+.cover .chip{position:absolute;z-index:3;left:58px;bottom:140px;width:470px}
+.cover .chip.t{padding:28px 30px}
+.cover .chip h3{font-size:34px;margin-top:10px}
+
+/* слайд-пункт */
+.item .idx{width:104px;height:104px;border-radius:30px;display:grid;place-items:center;margin:34px 0 0 4px;
+  font:800 58px/1 InterMM,sans-serif;color:#fff;background:linear-gradient(180deg,#2E8BFF,#0A6CFF);
+  box-shadow:inset 0 2px 1px rgba(255,255,255,.45),0 14px 30px rgba(0,122,255,.3)}
+.item .head{padding-top:30px}
+.item .head h1{font-size:84px;line-height:1.06}
+.item .head p{font-size:32px;line-height:1.42;margin-top:24px;max-width:940px}
+.item .stack{margin-top:auto;display:flex;flex-direction:column;gap:18px}
+.item .t{flex:none;padding:34px 36px}
+.item .t .lbl{margin-bottom:12px}
+.quote{font:600 36px/1.36 InterMM,sans-serif;color:var(--label)}
+.t.blue .quote{color:#fff}
+.bad{font:500 30px/1.4 InterMM,sans-serif;color:rgba(20,22,40,.55);text-decoration:line-through;text-decoration-color:rgba(255,59,48,.7);text-decoration-thickness:3px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+
+/* финал */
+.final .list{margin-top:auto;display:flex;flex-direction:column;gap:14px}
+.final .li{display:flex;align-items:center;gap:22px;padding:24px 30px}
+.final .li .ok{width:46px;height:46px;flex:none}
+.final .li b{font:650 32px/1.25 InterMM,sans-serif}
+.final .save{padding:34px 36px;text-align:left}
+.final .save h3{font-size:48px;margin-top:8px}
+
+/* правки: низ обложки, заполнение середины, строка финала */
+.cover .foot{margin-top:auto;position:relative;z-index:3}
+.final .li{flex-direction:row}
+.item .stack{flex:1;min-height:0;margin-top:34px}
+.item .stack>.t,.item .row2{flex:1}
+.item .row2 .t{height:100%;justify-content:center}
+.item .stack>.t:not(.chat){justify-content:center}
+.item .quote{font-size:44px;line-height:1.3}
+.item .bad{font-size:36px}
+/* чат как в «Сообщениях»: синий пузырь — твоя фраза, серый — пример ответа */
+.chat{justify-content:flex-end;gap:20px;padding:36px!important}
+.chat .lbl{margin-bottom:auto!important}
+.msg{max-width:82%;padding:24px 30px;border-radius:36px;font:500 32px/1.38 InterMM,sans-serif;letter-spacing:.005em}
+.msg.me{align-self:flex-end;background:linear-gradient(180deg,#2E8BFF,#0A6CFF);color:#fff;border-bottom-right-radius:12px;
+  box-shadow:inset 0 1.5px 1px rgba(255,255,255,.35),0 10px 24px rgba(0,122,255,.25)}
+.msg.ai{align-self:flex-start;background:rgba(229,229,234,.92);color:#000;border-bottom-left-radius:12px}
+.msg.ctx{opacity:.55}
+
+/* мини-макеты: признак показываем, а не описываем */
+.demo-card{justify-content:flex-start!important}
+.demo{flex:1;display:flex;align-items:center;justify-content:center;margin-top:18px;min-height:0}
+.demo-cap{margin-top:18px!important;font-size:28px!important}
+.m-grad{width:100%;height:100%;border-radius:22px;background:linear-gradient(135deg,#7B2FF7,#C43AD6 55%,#F76B8A);display:flex;flex-direction:column;justify-content:center;gap:14px;padding:28px}
+.m-grad i{display:block;height:18px;border-radius:9px;background:rgba(255,255,255,.85)}.m-grad i:nth-child(1){width:80%;height:26px}.m-grad i:nth-child(2){width:60%}.m-grad b{align-self:flex-start;margin-top:10px;padding:12px 22px;border-radius:999px;background:#fff;color:#7B2FF7;font:700 20px InterMM}
+.m-emoji{display:flex;flex-direction:column;gap:16px;width:100%}
+.m-emoji div{display:flex;align-items:center;gap:14px;font:700 30px InterMM;color:#1c1c1e}.m-emoji img{width:52px;height:52px}
+.m-cards{display:grid;grid-template-columns:1fr;gap:12px;width:100%}
+.m-cards div{border-radius:18px;background:rgba(120,120,128,.12);padding:18px 20px;font:700 28px InterMM;color:#3a3a3c}
+.m-btn{padding:22px 52px;border-radius:999px;background:#8e8e93;color:#fff;font:700 34px InterMM}
+.m-text{font:500 27px/1.45 InterMM;color:#3a3a3c}
+.m-photo{width:100%;height:100%;border-radius:22px;background:linear-gradient(160deg,#d9dee8,#bfc6d4);display:grid;place-items:center;color:#8e96a8;position:relative}
+.m-photo svg{width:120px;height:120px}.m-photo span{position:absolute;bottom:14px;right:16px;font:700 16px InterMM;letter-spacing:.1em;color:#8e96a8}
+/* UI-макеты шагов */
+.m-ui{width:100%;display:flex;flex-direction:column;gap:18px}
+.m-url{display:flex;align-items:center;gap:12px;padding:18px 24px;border-radius:18px;background:rgba(120,120,128,.12);font:500 28px InterMM;color:#3a3a3c}
+.m-url svg{width:30px;height:30px;color:#8e8e93}
+.m-cta{align-self:flex-start;display:flex;align-items:center;gap:12px;padding:20px 30px;border-radius:999px;background:var(--blue);color:#fff;font:650 30px InterMM;box-shadow:0 10px 24px rgba(0,122,255,.3)}
+.m-cta svg{width:30px;height:30px}
+.m-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;width:100%}
+.m-thumbs div{aspect-ratio:16/9;border-radius:14px;background:linear-gradient(160deg,#c9d3e6,#a9b6cf);display:grid;place-items:center;color:#fff}
+.m-thumbs svg{width:44px;height:44px}
+.m-arrow{display:flex;align-items:center;justify-content:center;gap:22px;font:700 30px InterMM;color:var(--blue)}
+.m-arrow svg{width:44px;height:44px}
+.m-cite{display:flex;gap:12px;flex-wrap:wrap}.m-cite span{padding:10px 18px;border-radius:999px;background:var(--tint);color:var(--blue);font:700 24px InterMM}
+/* финал на всю высоту */
+.final .list{margin-top:36px;flex:1}.final .li{flex:1}
+.final .li b{font-size:36px}
+.m-emoji div{font-size:36px}.m-emoji img{width:64px;height:64px}.m-cards div{font-size:34px;padding:22px 24px}.m-text{font-size:30px}
+
+/* обложка с рендером: объект крупнее кадра, уходит за правый нижний край; верх рендера растворяется в фон */
+.cover-render{position:absolute;z-index:0;height:auto;max-width:none;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 26%);mask-image:linear-gradient(180deg,transparent 0%,#000 26%)}
+.has-render .head{z-index:2}
+.has-render .chip{z-index:3}
+.has-render .foot span:first-child{visibility:hidden}

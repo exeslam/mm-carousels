@@ -1,0 +1,59 @@
+{
+  "id": "mm-keyword-infographic--mm-signal",
+  "design": "mm-signal",
+  "title": "Кодовое слово: цифры",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "source": "https://unsplash.com/photos/K7M7dQO-HrA",
+      "author": "warrenumoh",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "downloaded": "2026-09-23",
+      "file": "red-layers.jpg"
+    },
+    {
+      "source": "https://unsplash.com/photos/awhS9GjHwq8",
+      "author": "cdd20",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "downloaded": "2026-09-23",
+      "file": "glass-cube-heart.jpg"
+    },
+    {
+      "source": "https://unsplash.com/photos/awhS9GjHwq8",
+      "author": "cdd20",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "downloaded": "2026-09-23",
+      "file": "glass-cube-heart.jpg"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Roboto Flex + Onest (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "комментарии"
+    },
+    {
+      "id": "03",
+      "label": "охват"
+    },
+    {
+      "id": "04",
+      "label": "карусели"
+    },
+    {
+      "id": "05",
+      "label": "подпись"
+    },
+    {
+      "id": "06",
+      "label": "итог"
+    }
+  ]
+}

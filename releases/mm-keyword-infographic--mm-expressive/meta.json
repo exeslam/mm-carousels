@@ -1,0 +1,37 @@
+{
+  "id": "mm-keyword-infographic--mm-expressive",
+  "design": "mm-expressive",
+  "title": "Кодовое слово: цифры",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [],
+  "icons": "Material Symbols Rounded (Apache-2.0)",
+  "font": "Google Sans (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "комментарии"
+    },
+    {
+      "id": "03",
+      "label": "охват"
+    },
+    {
+      "id": "04",
+      "label": "карусели"
+    },
+    {
+      "id": "05",
+      "label": "подпись"
+    },
+    {
+      "id": "06",
+      "label": "итог"
+    }
+  ]
+}
