@@ -1,0 +1,13 @@
+{
+  "name": "mm-carousels",
+  "private": true,
+  "type": "module",
+  "description": "MM carousel pipeline: JSON spec → HTML (Apple HIG + Liquid Glass design system) → PNG 1080×1350",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "build": "python3 scripts/build.py",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": { "playwright": "1.62.1" }
+}
