@@ -1,0 +1,86 @@
+{
+  "id": "mm-slabyy-promt",
+  "design": "mm-reels",
+  "title": "Слабый промпт в сильный",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/flexed_biceps",
+      "file": "stickers/fluent-3d/flexed_biceps.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/think",
+      "file": "memoji/think.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "memoji/oops",
+      "file": "memoji/oops.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/hot_beverage",
+      "file": "stickers/fluent-3d/hot_beverage.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/memo",
+      "file": "stickers/fluent-3d/memo.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/speech_balloon",
+      "file": "stickers/fluent-3d/speech_balloon.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Знакомо? Дело не в нейросети"
+    },
+    {
+      "id": "03",
+      "label": "Добавь роль, формат и тон"
+    },
+    {
+      "id": "04",
+      "label": "Скажи, для кого и какой длин"
+    },
+    {
+      "id": "05",
+      "label": "Роль"
+    },
+    {
+      "id": "06",
+      "label": "Формат"
+    },
+    {
+      "id": "07",
+      "label": "Тон"
+    },
+    {
+      "id": "08",
+      "label": "итог"
+    }
+  ]
+}

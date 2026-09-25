@@ -1,0 +1,61 @@
+{
+  "id": "mm-pismo-klientu",
+  "design": "mm-reels",
+  "title": "Письмо клиенту вежливо",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "photo/man-stressed-dark",
+      "file": "photos/unsplash/man-stressed-dark.jpg",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "source": "https://unsplash.com/photos/BpTqCNotBLI",
+      "author": "lukearam"
+    },
+    {
+      "id": "memoji/swear",
+      "file": "memoji/swear.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/incoming_envelope",
+      "file": "stickers/fluent-3d/incoming_envelope.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Было обвинение, стало решени"
+    },
+    {
+      "id": "03",
+      "label": "Вот сам запрос"
+    },
+    {
+      "id": "04",
+      "label": "Злость оставь себе"
+    },
+    {
+      "id": "05",
+      "label": "итог"
+    }
+  ]
+}

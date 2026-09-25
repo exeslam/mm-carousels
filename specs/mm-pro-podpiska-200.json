@@ -1,0 +1,133 @@
+{
+ "handle": "@mm.machine.ru",
+ "design": "mm-reels",
+ "level": "pro",
+ "title": "Подписка за 200 долларов",
+ "host": {
+  "title": "Подписка за $200",
+  "sub": "кому она правда нужна"
+ },
+ "cover": {
+  "hook": "Подписка за [$200]. Кому она правда нужна",
+  "visual": {
+   "kind": "sticker",
+   "id": "fluent/money_with_wings",
+   "memoji": "think"
+  }
+ },
+ "items": [
+  {
+   "kind": "price",
+   "logo": "logo/claude",
+   "title": "Claude",
+   "rows": [
+    [
+     "Pro",
+     "$20",
+     "Claude Code уже входит"
+    ],
+    [
+     "Max 5x",
+     "$100",
+     "в 5 раз больше лимита Pro"
+    ],
+    [
+     "Max 20x",
+     "$200",
+     "в 20 раз больше Pro",
+     true
+    ]
+   ],
+   "note": "Лимит обновляется каждые 5 часов. Плюс есть недельный лимит.",
+   "say": "У Claude [три] тарифа"
+  },
+  {
+   "kind": "price",
+   "logo": "logo/openai",
+   "title": "ChatGPT",
+   "rows": [
+    [
+     "Plus",
+     "$20",
+     "Codex уже входит"
+    ],
+    [
+     "Pro",
+     "от $100",
+     "для тех, кому мало Plus",
+     true
+    ]
+   ],
+   "note": "Codex есть во всех планах ChatGPT, даже в бесплатном.",
+   "say": "У ChatGPT [Codex] уже в подписке"
+  },
+  {
+   "kind": "card",
+   "ban": "важно",
+   "ban_ok": true,
+   "icon": "gauge",
+   "title": "Лимит один на всё",
+   "why": "Чат и Claude Code тратят один и тот же лимит. Много кода, значит лимит уйдёт быстрее.",
+   "do": "Смотри расход командой /usage",
+   "sticker": "fluent/hourglass_done",
+   "say": "Чат и код [делят] лимит"
+  },
+  {
+   "kind": "meme",
+   "format": "expect",
+   "left": "Куплю Max за $200 и стану продуктивнее",
+   "right": "Открываю Claude два раза в неделю",
+   "l_mj": "wink",
+   "r_mj": "oops",
+   "say": "Не плати за [воздух]"
+  },
+  {
+   "kind": "list",
+   "group": "официальный совет",
+   "title": "Когда брать больше",
+   "rows": [
+    [
+     "alert-triangle",
+     "Постоянно упираешься в лимит Pro"
+    ],
+    [
+     "terminal",
+     "Весь день работаешь в Claude Code"
+    ],
+    [
+     "users",
+     "Много агентов и длинные сессии"
+    ]
+   ],
+   "sticker": "fluent/bullseye",
+   "say": "Упёрся в лимит, бери [Max 5x]"
+  }
+ ],
+ "final": {
+  "title": "коротко",
+  "list": [
+   [
+    "coin",
+    "$20 хватит для обычной работы"
+   ],
+   [
+    "gauge",
+    "Упираешься в лимит, бери $100"
+   ],
+   [
+    "rocket",
+    "$200, если в Claude весь день"
+   ]
+  ],
+  "say": "Начни с [$20] и смотри на лимит",
+  "avatar": "wink",
+  "keyword": "ИИШНИЦА"
+ },
+ "sources": [
+  "https://claude.com/pricing",
+  "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
+  "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+  "https://learn.chatgpt.com/docs/pricing"
+ ],
+ "caption": "Подписка за $200 нужна меньшему числу людей, чем кажется.\n\nClaude: Pro $20, Max 5x $100, Max 20x $200. Лимит обновляется каждые 5 часов, плюс недельный. Чат и Claude Code тратят один лимит.\nChatGPT: Plus $20, Pro от $100. Codex входит во все планы.\n\nОфициальный совет простой: если постоянно упираешься в лимит Pro, переходи на Max 5x. Весь день в Claude, тогда уже $200.\n\nЦены на 25.09.2026, проверяй на сайтах перед покупкой.\n\nБольше таких разборов в телеграм-канале ИИшница, ссылка в шапке. Напиши в комментариях ИИШНИЦА, и я пришлю тебе подарок."
+}

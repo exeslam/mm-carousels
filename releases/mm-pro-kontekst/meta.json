@@ -1,0 +1,72 @@
+{
+  "id": "mm-pro-kontekst",
+  "design": "mm-reels",
+  "title": "Куда уходит контекст",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/brain",
+      "file": "stickers/fluent-3d/brain.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/think",
+      "file": "memoji/think.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/package",
+      "file": "stickers/fluent-3d/package.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/robot",
+      "file": "stickers/fluent-3d/robot.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Что грузится сразу"
+    },
+    {
+      "id": "03",
+      "label": "Файлы съедают больше всего"
+    },
+    {
+      "id": "04",
+      "label": "Автосжатие включится само"
+    },
+    {
+      "id": "05",
+      "label": "Сабагенты держат контекст чи"
+    },
+    {
+      "id": "06",
+      "label": "Длинная сессия дорожает сама"
+    },
+    {
+      "id": "07",
+      "label": "итог"
+    }
+  ]
+}

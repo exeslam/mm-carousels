@@ -1,0 +1,3864 @@
+{
+ "version": 1,
+ "updated": "2026-09-25",
+ "count": 389,
+ "assets": [
+  {
+   "id": "memoji/think",
+   "file": "memoji/think.png",
+   "type": "memoji",
+   "tags": [
+    "думает",
+    "вопрос",
+    "сомнение",
+    "хук"
+   ],
+   "license": "Memoji Умара, только для MM"
+  },
+  {
+   "id": "memoji/oops",
+   "file": "memoji/oops.png",
+   "type": "memoji",
+   "tags": [
+    "ой",
+    "закрыл рот",
+    "ошибка",
+    "шок"
+   ],
+   "license": "Memoji Умара, только для MM"
+  },
+  {
+   "id": "memoji/laptop",
+   "file": "memoji/laptop.png",
+   "type": "memoji",
+   "tags": [
+    "за ноутбуком",
+    "работаю",
+    "ведущий"
+   ],
+   "license": "Memoji Умара, только для MM"
+  },
+  {
+   "id": "memoji/wink",
+   "file": "memoji/wink.png",
+   "type": "memoji",
+   "tags": [
+    "подмигивает",
+    "финал",
+    "дружелюбно",
+    "cta"
+   ],
+   "license": "Memoji Умара, только для MM"
+  },
+  {
+   "id": "memoji/swear",
+   "file": "memoji/swear.png",
+   "type": "memoji",
+   "tags": [
+    "ругается",
+    "злость",
+    "нельзя",
+    "бесит"
+   ],
+   "license": "Memoji Умара, только для MM"
+  },
+  {
+   "id": "fluent/1st_place_medal",
+   "file": "stickers/fluent-3d/1st_place_medal.png",
+   "type": "sticker-3d",
+   "tags": [
+    "1st",
+    "place",
+    "medal"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/alarm_clock",
+   "file": "stickers/fluent-3d/alarm_clock.png",
+   "type": "sticker-3d",
+   "tags": [
+    "alarm",
+    "clock"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/artist_palette",
+   "file": "stickers/fluent-3d/artist_palette.png",
+   "type": "sticker-3d",
+   "tags": [
+    "artist",
+    "palette"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/bookmark_tabs",
+   "file": "stickers/fluent-3d/bookmark_tabs.png",
+   "type": "sticker-3d",
+   "tags": [
+    "bookmark",
+    "tabs"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/books",
+   "file": "stickers/fluent-3d/books.png",
+   "type": "sticker-3d",
+   "tags": [
+    "books"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/brain",
+   "file": "stickers/fluent-3d/brain.png",
+   "type": "sticker-3d",
+   "tags": [
+    "brain"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/bullseye",
+   "file": "stickers/fluent-3d/bullseye.png",
+   "type": "sticker-3d",
+   "tags": [
+    "bullseye"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/camera_with_flash",
+   "file": "stickers/fluent-3d/camera_with_flash.png",
+   "type": "sticker-3d",
+   "tags": [
+    "camera",
+    "with",
+    "flash"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/chart_decreasing",
+   "file": "stickers/fluent-3d/chart_decreasing.png",
+   "type": "sticker-3d",
+   "tags": [
+    "chart",
+    "decreasing"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/chart_increasing",
+   "file": "stickers/fluent-3d/chart_increasing.png",
+   "type": "sticker-3d",
+   "tags": [
+    "chart",
+    "increasing"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/check_mark_button",
+   "file": "stickers/fluent-3d/check_mark_button.png",
+   "type": "sticker-3d",
+   "tags": [
+    "check",
+    "mark",
+    "button"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/clapper_board",
+   "file": "stickers/fluent-3d/clapper_board.png",
+   "type": "sticker-3d",
+   "tags": [
+    "clapper",
+    "board"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/clapping_hands",
+   "file": "stickers/fluent-3d/clapping_hands.png",
+   "type": "sticker-3d",
+   "tags": [
+    "clapping",
+    "hands"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/clipboard",
+   "file": "stickers/fluent-3d/clipboard.png",
+   "type": "sticker-3d",
+   "tags": [
+    "clipboard"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/cross_mark",
+   "file": "stickers/fluent-3d/cross_mark.png",
+   "type": "sticker-3d",
+   "tags": [
+    "cross",
+    "mark"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/crown",
+   "file": "stickers/fluent-3d/crown.png",
+   "type": "sticker-3d",
+   "tags": [
+    "crown"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/desktop_computer",
+   "file": "stickers/fluent-3d/desktop_computer.png",
+   "type": "sticker-3d",
+   "tags": [
+    "desktop",
+    "computer"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/dollar_banknote",
+   "file": "stickers/fluent-3d/dollar_banknote.png",
+   "type": "sticker-3d",
+   "tags": [
+    "dollar",
+    "banknote"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/exploding_head",
+   "file": "stickers/fluent-3d/exploding_head.png",
+   "type": "sticker-3d",
+   "tags": [
+    "exploding",
+    "head"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/eyes",
+   "file": "stickers/fluent-3d/eyes.png",
+   "type": "sticker-3d",
+   "tags": [
+    "eyes"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/face_screaming_in_fear",
+   "file": "stickers/fluent-3d/face_screaming_in_fear.png",
+   "type": "sticker-3d",
+   "tags": [
+    "face",
+    "screaming",
+    "in",
+    "fear"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/face_with_monocle",
+   "file": "stickers/fluent-3d/face_with_monocle.png",
+   "type": "sticker-3d",
+   "tags": [
+    "face",
+    "with",
+    "monocle"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/face_with_open_mouth",
+   "file": "stickers/fluent-3d/face_with_open_mouth.png",
+   "type": "sticker-3d",
+   "tags": [
+    "face",
+    "with",
+    "open",
+    "mouth"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/face_with_rolling_eyes",
+   "file": "stickers/fluent-3d/face_with_rolling_eyes.png",
+   "type": "sticker-3d",
+   "tags": [
+    "face",
+    "with",
+    "rolling",
+    "eyes"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/face_with_tears_of_joy",
+   "file": "stickers/fluent-3d/face_with_tears_of_joy.png",
+   "type": "sticker-3d",
+   "tags": [
+    "face",
+    "with",
+    "tears",
+    "of",
+    "joy"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/fire",
+   "file": "stickers/fluent-3d/fire.png",
+   "type": "sticker-3d",
+   "tags": [
+    "fire"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/flexed_biceps",
+   "file": "stickers/fluent-3d/flexed_biceps.png",
+   "type": "sticker-3d",
+   "tags": [
+    "flexed",
+    "biceps"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/folded_hands",
+   "file": "stickers/fluent-3d/folded_hands.png",
+   "type": "sticker-3d",
+   "tags": [
+    "folded",
+    "hands"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/gear",
+   "file": "stickers/fluent-3d/gear.png",
+   "type": "sticker-3d",
+   "tags": [
+    "gear"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/gem_stone",
+   "file": "stickers/fluent-3d/gem_stone.png",
+   "type": "sticker-3d",
+   "tags": [
+    "gem",
+    "stone"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/ghost",
+   "file": "stickers/fluent-3d/ghost.png",
+   "type": "sticker-3d",
+   "tags": [
+    "ghost"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/graduation_cap",
+   "file": "stickers/fluent-3d/graduation_cap.png",
+   "type": "sticker-3d",
+   "tags": [
+    "graduation",
+    "cap"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/grimacing_face",
+   "file": "stickers/fluent-3d/grimacing_face.png",
+   "type": "sticker-3d",
+   "tags": [
+    "grimacing",
+    "face"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/hammer_and_wrench",
+   "file": "stickers/fluent-3d/hammer_and_wrench.png",
+   "type": "sticker-3d",
+   "tags": [
+    "hammer",
+    "and",
+    "wrench"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/headphone",
+   "file": "stickers/fluent-3d/headphone.png",
+   "type": "sticker-3d",
+   "tags": [
+    "headphone"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/high_voltage",
+   "file": "stickers/fluent-3d/high_voltage.png",
+   "type": "sticker-3d",
+   "tags": [
+    "high",
+    "voltage"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/hot_beverage",
+   "file": "stickers/fluent-3d/hot_beverage.png",
+   "type": "sticker-3d",
+   "tags": [
+    "hot",
+    "beverage"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/hourglass_done",
+   "file": "stickers/fluent-3d/hourglass_done.png",
+   "type": "sticker-3d",
+   "tags": [
+    "hourglass",
+    "done"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/hundred_points",
+   "file": "stickers/fluent-3d/hundred_points.png",
+   "type": "sticker-3d",
+   "tags": [
+    "hundred",
+    "points"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/incoming_envelope",
+   "file": "stickers/fluent-3d/incoming_envelope.png",
+   "type": "sticker-3d",
+   "tags": [
+    "incoming",
+    "envelope"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/key",
+   "file": "stickers/fluent-3d/key.png",
+   "type": "sticker-3d",
+   "tags": [
+    "key"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/keyboard",
+   "file": "stickers/fluent-3d/keyboard.png",
+   "type": "sticker-3d",
+   "tags": [
+    "keyboard"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/laptop",
+   "file": "stickers/fluent-3d/laptop.png",
+   "type": "sticker-3d",
+   "tags": [
+    "laptop"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/light_bulb",
+   "file": "stickers/fluent-3d/light_bulb.png",
+   "type": "sticker-3d",
+   "tags": [
+    "light",
+    "bulb"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/link",
+   "file": "stickers/fluent-3d/link.png",
+   "type": "sticker-3d",
+   "tags": [
+    "link"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/locked",
+   "file": "stickers/fluent-3d/locked.png",
+   "type": "sticker-3d",
+   "tags": [
+    "locked"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/magnifying_glass_tilted_left",
+   "file": "stickers/fluent-3d/magnifying_glass_tilted_left.png",
+   "type": "sticker-3d",
+   "tags": [
+    "magnifying",
+    "glass",
+    "tilted",
+    "left"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/memo",
+   "file": "stickers/fluent-3d/memo.png",
+   "type": "sticker-3d",
+   "tags": [
+    "memo"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/microphone",
+   "file": "stickers/fluent-3d/microphone.png",
+   "type": "sticker-3d",
+   "tags": [
+    "microphone"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/mobile_phone",
+   "file": "stickers/fluent-3d/mobile_phone.png",
+   "type": "sticker-3d",
+   "tags": [
+    "mobile",
+    "phone"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/money_bag",
+   "file": "stickers/fluent-3d/money_bag.png",
+   "type": "sticker-3d",
+   "tags": [
+    "money",
+    "bag"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/money_with_wings",
+   "file": "stickers/fluent-3d/money_with_wings.png",
+   "type": "sticker-3d",
+   "tags": [
+    "money",
+    "with",
+    "wings"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/movie_camera",
+   "file": "stickers/fluent-3d/movie_camera.png",
+   "type": "sticker-3d",
+   "tags": [
+    "movie",
+    "camera"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/package",
+   "file": "stickers/fluent-3d/package.png",
+   "type": "sticker-3d",
+   "tags": [
+    "package"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/party_popper",
+   "file": "stickers/fluent-3d/party_popper.png",
+   "type": "sticker-3d",
+   "tags": [
+    "party",
+    "popper"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/pleading_face",
+   "file": "stickers/fluent-3d/pleading_face.png",
+   "type": "sticker-3d",
+   "tags": [
+    "pleading",
+    "face"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/prohibited",
+   "file": "stickers/fluent-3d/prohibited.png",
+   "type": "sticker-3d",
+   "tags": [
+    "prohibited"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/pushpin",
+   "file": "stickers/fluent-3d/pushpin.png",
+   "type": "sticker-3d",
+   "tags": [
+    "pushpin"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/raising_hands",
+   "file": "stickers/fluent-3d/raising_hands.png",
+   "type": "sticker-3d",
+   "tags": [
+    "raising",
+    "hands"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/red_exclamation_mark",
+   "file": "stickers/fluent-3d/red_exclamation_mark.png",
+   "type": "sticker-3d",
+   "tags": [
+    "red",
+    "exclamation",
+    "mark"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/red_question_mark",
+   "file": "stickers/fluent-3d/red_question_mark.png",
+   "type": "sticker-3d",
+   "tags": [
+    "red",
+    "question",
+    "mark"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/robot",
+   "file": "stickers/fluent-3d/robot.png",
+   "type": "sticker-3d",
+   "tags": [
+    "robot"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/rocket",
+   "file": "stickers/fluent-3d/rocket.png",
+   "type": "sticker-3d",
+   "tags": [
+    "rocket"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/shield",
+   "file": "stickers/fluent-3d/shield.png",
+   "type": "sticker-3d",
+   "tags": [
+    "shield"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/skull",
+   "file": "stickers/fluent-3d/skull.png",
+   "type": "sticker-3d",
+   "tags": [
+    "skull"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/sleeping_face",
+   "file": "stickers/fluent-3d/sleeping_face.png",
+   "type": "sticker-3d",
+   "tags": [
+    "sleeping",
+    "face"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/smiling_face_with_sunglasses",
+   "file": "stickers/fluent-3d/smiling_face_with_sunglasses.png",
+   "type": "sticker-3d",
+   "tags": [
+    "smiling",
+    "face",
+    "with",
+    "sunglasses"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/sparkles",
+   "file": "stickers/fluent-3d/sparkles.png",
+   "type": "sticker-3d",
+   "tags": [
+    "sparkles"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/speaker_high_volume",
+   "file": "stickers/fluent-3d/speaker_high_volume.png",
+   "type": "sticker-3d",
+   "tags": [
+    "speaker",
+    "high",
+    "volume"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/speech_balloon",
+   "file": "stickers/fluent-3d/speech_balloon.png",
+   "type": "sticker-3d",
+   "tags": [
+    "speech",
+    "balloon"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/spiral_calendar",
+   "file": "stickers/fluent-3d/spiral_calendar.png",
+   "type": "sticker-3d",
+   "tags": [
+    "spiral",
+    "calendar"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/star-struck",
+   "file": "stickers/fluent-3d/star-struck.png",
+   "type": "sticker-3d",
+   "tags": [
+    "star-struck"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/stopwatch",
+   "file": "stickers/fluent-3d/stopwatch.png",
+   "type": "sticker-3d",
+   "tags": [
+    "stopwatch"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/thinking_face",
+   "file": "stickers/fluent-3d/thinking_face.png",
+   "type": "sticker-3d",
+   "tags": [
+    "thinking",
+    "face"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/thought_balloon",
+   "file": "stickers/fluent-3d/thought_balloon.png",
+   "type": "sticker-3d",
+   "tags": [
+    "thought",
+    "balloon"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/thumbs_down",
+   "file": "stickers/fluent-3d/thumbs_down.png",
+   "type": "sticker-3d",
+   "tags": [
+    "thumbs",
+    "down"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/thumbs_up",
+   "file": "stickers/fluent-3d/thumbs_up.png",
+   "type": "sticker-3d",
+   "tags": [
+    "thumbs",
+    "up"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/toolbox",
+   "file": "stickers/fluent-3d/toolbox.png",
+   "type": "sticker-3d",
+   "tags": [
+    "toolbox"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/trophy",
+   "file": "stickers/fluent-3d/trophy.png",
+   "type": "sticker-3d",
+   "tags": [
+    "trophy"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/warning",
+   "file": "stickers/fluent-3d/warning.png",
+   "type": "sticker-3d",
+   "tags": [
+    "warning"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/waving_hand",
+   "file": "stickers/fluent-3d/waving_hand.png",
+   "type": "sticker-3d",
+   "tags": [
+    "waving",
+    "hand"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/wrapped_gift",
+   "file": "stickers/fluent-3d/wrapped_gift.png",
+   "type": "sticker-3d",
+   "tags": [
+    "wrapped",
+    "gift"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/zany_face",
+   "file": "stickers/fluent-3d/zany_face.png",
+   "type": "sticker-3d",
+   "tags": [
+    "zany",
+    "face"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "3dicons/bag",
+   "file": "stickers/3dicons/bag.png",
+   "type": "sticker-3d",
+   "tags": [
+    "bag"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/battery",
+   "file": "stickers/3dicons/battery.png",
+   "type": "sticker-3d",
+   "tags": [
+    "battery"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/bookmark",
+   "file": "stickers/3dicons/bookmark.png",
+   "type": "sticker-3d",
+   "tags": [
+    "bookmark"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/brush",
+   "file": "stickers/3dicons/brush.png",
+   "type": "sticker-3d",
+   "tags": [
+    "brush"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/bulb",
+   "file": "stickers/3dicons/bulb.png",
+   "type": "sticker-3d",
+   "tags": [
+    "bulb"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/calendar",
+   "file": "stickers/3dicons/calendar.png",
+   "type": "sticker-3d",
+   "tags": [
+    "calendar"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/camera",
+   "file": "stickers/3dicons/camera.png",
+   "type": "sticker-3d",
+   "tags": [
+    "camera"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/card",
+   "file": "stickers/3dicons/card.png",
+   "type": "sticker-3d",
+   "tags": [
+    "card"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/chart",
+   "file": "stickers/3dicons/chart.png",
+   "type": "sticker-3d",
+   "tags": [
+    "chart"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/chat-bubble",
+   "file": "stickers/3dicons/chat-bubble.png",
+   "type": "sticker-3d",
+   "tags": [
+    "chat",
+    "bubble"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/chat",
+   "file": "stickers/3dicons/chat.png",
+   "type": "sticker-3d",
+   "tags": [
+    "chat"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/clock",
+   "file": "stickers/3dicons/clock.png",
+   "type": "sticker-3d",
+   "tags": [
+    "clock"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/computer",
+   "file": "stickers/3dicons/computer.png",
+   "type": "sticker-3d",
+   "tags": [
+    "computer"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/copy",
+   "file": "stickers/3dicons/copy.png",
+   "type": "sticker-3d",
+   "tags": [
+    "copy"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/crown",
+   "file": "stickers/3dicons/crown.png",
+   "type": "sticker-3d",
+   "tags": [
+    "crown"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/cube",
+   "file": "stickers/3dicons/cube.png",
+   "type": "sticker-3d",
+   "tags": [
+    "cube"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/dollar",
+   "file": "stickers/3dicons/dollar.png",
+   "type": "sticker-3d",
+   "tags": [
+    "dollar"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/explorer",
+   "file": "stickers/3dicons/explorer.png",
+   "type": "sticker-3d",
+   "tags": [
+    "explorer"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/figma",
+   "file": "stickers/3dicons/figma.png",
+   "type": "sticker-3d",
+   "tags": [
+    "figma"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/file-fav",
+   "file": "stickers/3dicons/file-fav.png",
+   "type": "sticker-3d",
+   "tags": [
+    "file",
+    "fav"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/file-plus",
+   "file": "stickers/3dicons/file-plus.png",
+   "type": "sticker-3d",
+   "tags": [
+    "file",
+    "plus"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/file-text",
+   "file": "stickers/3dicons/file-text.png",
+   "type": "sticker-3d",
+   "tags": [
+    "file",
+    "text"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/file",
+   "file": "stickers/3dicons/file.png",
+   "type": "sticker-3d",
+   "tags": [
+    "file"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/fire",
+   "file": "stickers/3dicons/fire.png",
+   "type": "sticker-3d",
+   "tags": [
+    "fire"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/flag",
+   "file": "stickers/3dicons/flag.png",
+   "type": "sticker-3d",
+   "tags": [
+    "flag"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/flash",
+   "file": "stickers/3dicons/flash.png",
+   "type": "sticker-3d",
+   "tags": [
+    "flash"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/folder-fav",
+   "file": "stickers/3dicons/folder-fav.png",
+   "type": "sticker-3d",
+   "tags": [
+    "folder",
+    "fav"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/folder-new",
+   "file": "stickers/3dicons/folder-new.png",
+   "type": "sticker-3d",
+   "tags": [
+    "folder",
+    "new"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/folder",
+   "file": "stickers/3dicons/folder.png",
+   "type": "sticker-3d",
+   "tags": [
+    "folder"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/gift",
+   "file": "stickers/3dicons/gift.png",
+   "type": "sticker-3d",
+   "tags": [
+    "gift"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/headphone",
+   "file": "stickers/3dicons/headphone.png",
+   "type": "sticker-3d",
+   "tags": [
+    "headphone"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/heart",
+   "file": "stickers/3dicons/heart.png",
+   "type": "sticker-3d",
+   "tags": [
+    "heart"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/image",
+   "file": "stickers/3dicons/image.png",
+   "type": "sticker-3d",
+   "tags": [
+    "image"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/key",
+   "file": "stickers/3dicons/key.png",
+   "type": "sticker-3d",
+   "tags": [
+    "key"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/lab",
+   "file": "stickers/3dicons/lab.png",
+   "type": "sticker-3d",
+   "tags": [
+    "lab"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/link",
+   "file": "stickers/3dicons/link.png",
+   "type": "sticker-3d",
+   "tags": [
+    "link"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/location",
+   "file": "stickers/3dicons/location.png",
+   "type": "sticker-3d",
+   "tags": [
+    "location"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/lock",
+   "file": "stickers/3dicons/lock.png",
+   "type": "sticker-3d",
+   "tags": [
+    "lock"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/locker",
+   "file": "stickers/3dicons/locker.png",
+   "type": "sticker-3d",
+   "tags": [
+    "locker"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/magic",
+   "file": "stickers/3dicons/magic.png",
+   "type": "sticker-3d",
+   "tags": [
+    "magic"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/mail",
+   "file": "stickers/3dicons/mail.png",
+   "type": "sticker-3d",
+   "tags": [
+    "mail"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/map-pin",
+   "file": "stickers/3dicons/map-pin.png",
+   "type": "sticker-3d",
+   "tags": [
+    "map",
+    "pin"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/medal",
+   "file": "stickers/3dicons/medal.png",
+   "type": "sticker-3d",
+   "tags": [
+    "medal"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/megaphone",
+   "file": "stickers/3dicons/megaphone.png",
+   "type": "sticker-3d",
+   "tags": [
+    "megaphone"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/mic",
+   "file": "stickers/3dicons/mic.png",
+   "type": "sticker-3d",
+   "tags": [
+    "mic"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/mobile",
+   "file": "stickers/3dicons/mobile.png",
+   "type": "sticker-3d",
+   "tags": [
+    "mobile"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/money-bag",
+   "file": "stickers/3dicons/money-bag.png",
+   "type": "sticker-3d",
+   "tags": [
+    "money",
+    "bag"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/money",
+   "file": "stickers/3dicons/money.png",
+   "type": "sticker-3d",
+   "tags": [
+    "money"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/music",
+   "file": "stickers/3dicons/music.png",
+   "type": "sticker-3d",
+   "tags": [
+    "music"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/notebook",
+   "file": "stickers/3dicons/notebook.png",
+   "type": "sticker-3d",
+   "tags": [
+    "notebook"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/paint-kit",
+   "file": "stickers/3dicons/paint-kit.png",
+   "type": "sticker-3d",
+   "tags": [
+    "paint",
+    "kit"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/pencil",
+   "file": "stickers/3dicons/pencil.png",
+   "type": "sticker-3d",
+   "tags": [
+    "pencil"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/pin",
+   "file": "stickers/3dicons/pin.png",
+   "type": "sticker-3d",
+   "tags": [
+    "pin"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/puzzle",
+   "file": "stickers/3dicons/puzzle.png",
+   "type": "sticker-3d",
+   "tags": [
+    "puzzle"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/rocket",
+   "file": "stickers/3dicons/rocket.png",
+   "type": "sticker-3d",
+   "tags": [
+    "rocket"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/search",
+   "file": "stickers/3dicons/search.png",
+   "type": "sticker-3d",
+   "tags": [
+    "search"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/settings",
+   "file": "stickers/3dicons/settings.png",
+   "type": "sticker-3d",
+   "tags": [
+    "settings"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/shield",
+   "file": "stickers/3dicons/shield.png",
+   "type": "sticker-3d",
+   "tags": [
+    "shield"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/sphere",
+   "file": "stickers/3dicons/sphere.png",
+   "type": "sticker-3d",
+   "tags": [
+    "sphere"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/star",
+   "file": "stickers/3dicons/star.png",
+   "type": "sticker-3d",
+   "tags": [
+    "star"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/target",
+   "file": "stickers/3dicons/target.png",
+   "type": "sticker-3d",
+   "tags": [
+    "target"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/tick",
+   "file": "stickers/3dicons/tick.png",
+   "type": "sticker-3d",
+   "tags": [
+    "tick"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/toggle",
+   "file": "stickers/3dicons/toggle.png",
+   "type": "sticker-3d",
+   "tags": [
+    "toggle"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/tool",
+   "file": "stickers/3dicons/tool.png",
+   "type": "sticker-3d",
+   "tags": [
+    "tool"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/trash",
+   "file": "stickers/3dicons/trash.png",
+   "type": "sticker-3d",
+   "tags": [
+    "trash"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/trophy",
+   "file": "stickers/3dicons/trophy.png",
+   "type": "sticker-3d",
+   "tags": [
+    "trophy"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/video",
+   "file": "stickers/3dicons/video.png",
+   "type": "sticker-3d",
+   "tags": [
+    "video"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/wallet",
+   "file": "stickers/3dicons/wallet.png",
+   "type": "sticker-3d",
+   "tags": [
+    "wallet"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "3dicons/wifi",
+   "file": "stickers/3dicons/wifi.png",
+   "type": "sticker-3d",
+   "tags": [
+    "wifi"
+   ],
+   "license": "CC0, realvjy/3dicons"
+  },
+  {
+   "id": "photo/desk-bright-home",
+   "file": "photos/unsplash/desk-bright-home.jpg",
+   "type": "photo",
+   "tags": [
+    "desk",
+    "bright",
+    "home"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/hGV2TfOh0ns",
+   "author": "domenicoloia"
+  },
+  {
+   "id": "photo/desk-laptop-wood",
+   "file": "photos/unsplash/desk-laptop-wood.jpg",
+   "type": "photo",
+   "tags": [
+    "desk",
+    "laptop",
+    "wood"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/vGgaESc2M1Y",
+   "author": "karishea"
+  },
+  {
+   "id": "photo/desk-minimal-laptop-plant",
+   "file": "photos/unsplash/desk-minimal-laptop-plant.jpg",
+   "type": "photo",
+   "tags": [
+    "desk",
+    "minimal",
+    "laptop",
+    "plant"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/IisDPFNUS4k",
+   "author": "minhphamdesign"
+  },
+  {
+   "id": "photo/desk-setup-monitor",
+   "file": "photos/unsplash/desk-setup-monitor.jpg",
+   "type": "photo",
+   "tags": [
+    "desk",
+    "setup",
+    "monitor"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/-8-2YWKt8Ag",
+   "author": "maxandrey"
+  },
+  {
+   "id": "photo/hands-laptop-light",
+   "file": "photos/unsplash/hands-laptop-light.jpg",
+   "type": "photo",
+   "tags": [
+    "hands",
+    "laptop",
+    "light"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/zMcBf-n6qrs",
+   "author": "mimithian"
+  },
+  {
+   "id": "photo/laptop-bed-morning",
+   "file": "photos/unsplash/laptop-bed-morning.jpg",
+   "type": "photo",
+   "tags": [
+    "laptop",
+    "bed",
+    "morning"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/zw8t5aMmJQQ",
+   "author": "sincerelymedia"
+  },
+  {
+   "id": "photo/laptop-coffee-cafe",
+   "file": "photos/unsplash/laptop-coffee-cafe.jpg",
+   "type": "photo",
+   "tags": [
+    "laptop",
+    "coffee",
+    "cafe"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/j4uuKnN43_M",
+   "author": "agk42"
+  },
+  {
+   "id": "photo/laptop-latte-bed",
+   "file": "photos/unsplash/laptop-latte-bed.jpg",
+   "type": "photo",
+   "tags": [
+    "laptop",
+    "latte",
+    "bed"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/ylveRpZ8L1s",
+   "author": "sincerelymedia"
+  },
+  {
+   "id": "photo/laptop-typing-close",
+   "file": "photos/unsplash/laptop-typing-close.jpg",
+   "type": "photo",
+   "tags": [
+    "laptop",
+    "typing",
+    "close"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/vZJdYl5JVXY",
+   "author": "kaitlynbaker"
+  },
+  {
+   "id": "photo/laptop-typing-dark",
+   "file": "photos/unsplash/laptop-typing-dark.jpg",
+   "type": "photo",
+   "tags": [
+    "laptop",
+    "typing",
+    "dark"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/npxXWgQ33ZQ",
+   "author": "glenncarstenspeters"
+  },
+  {
+   "id": "photo/latte-laptop-top",
+   "file": "photos/unsplash/latte-laptop-top.jpg",
+   "type": "photo",
+   "tags": [
+    "latte",
+    "laptop",
+    "top"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/It0DCaCBr40",
+   "author": "nolanissac"
+  },
+  {
+   "id": "photo/man-asleep-desk-night",
+   "file": "photos/unsplash/man-asleep-desk-night.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "asleep",
+    "desk",
+    "night"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/N5Dpfl8qcRs",
+   "author": "silverkblack"
+  },
+  {
+   "id": "photo/man-asleep-on-laptop",
+   "file": "photos/unsplash/man-asleep-on-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "asleep",
+    "on",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/Cong7lHgzV4",
+   "author": "silverkblack"
+  },
+  {
+   "id": "photo/man-bored-laptop",
+   "file": "photos/unsplash/man-bored-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "bored",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/TLdmnQz4Pns",
+   "author": "fotospk"
+  },
+  {
+   "id": "photo/man-desk-coding",
+   "file": "photos/unsplash/man-desk-coding.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "desk",
+    "coding"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/4wOkqiXNP7M",
+   "author": "perloov"
+  },
+  {
+   "id": "photo/man-focused-headphones",
+   "file": "photos/unsplash/man-focused-headphones.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "focused",
+    "headphones"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/4-EeTnaC1S4",
+   "author": "sickhews"
+  },
+  {
+   "id": "photo/man-headache-laptop",
+   "file": "photos/unsplash/man-headache-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "headache",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/1K9T5YiZ2WU",
+   "author": "punttim"
+  },
+  {
+   "id": "photo/man-laptop-night-office",
+   "file": "photos/unsplash/man-laptop-night-office.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "laptop",
+    "night",
+    "office"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/mXz64B8-3h0",
+   "author": "cvelitchkov"
+  },
+  {
+   "id": "photo/man-panic-laptop",
+   "file": "photos/unsplash/man-panic-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "panic",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/Ili1gmB9Jes",
+   "author": "officestock"
+  },
+  {
+   "id": "photo/man-stressed-dark",
+   "file": "photos/unsplash/man-stressed-dark.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "stressed",
+    "dark"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/BpTqCNotBLI",
+   "author": "lukearam"
+  },
+  {
+   "id": "photo/man-thinking-laptop",
+   "file": "photos/unsplash/man-thinking-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "man",
+    "thinking",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/jokxn-4kogA",
+   "author": "varunkgaba"
+  },
+  {
+   "id": "photo/phone-hand-outdoor",
+   "file": "photos/unsplash/phone-hand-outdoor.jpg",
+   "type": "photo",
+   "tags": [
+    "phone",
+    "hand",
+    "outdoor"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/voRfgeyiBKA",
+   "author": "mediamodifier"
+  },
+  {
+   "id": "photo/phone-hand-white-bg",
+   "file": "photos/unsplash/phone-hand-white-bg.jpg",
+   "type": "photo",
+   "tags": [
+    "phone",
+    "hand",
+    "white",
+    "bg"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/GaDzER4qyto",
+   "author": "vojtechbruzek"
+  },
+  {
+   "id": "photo/phone-hand-white-screen",
+   "file": "photos/unsplash/phone-hand-white-screen.jpg",
+   "type": "photo",
+   "tags": [
+    "phone",
+    "hand",
+    "white",
+    "screen"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/u1b6E6IkSGQ",
+   "author": "personal_graphic"
+  },
+  {
+   "id": "photo/team-around-laptop",
+   "file": "photos/unsplash/team-around-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "team",
+    "around",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/Of_m3hMsoAA",
+   "author": "judmackrill"
+  },
+  {
+   "id": "photo/team-laptop-meeting",
+   "file": "photos/unsplash/team-laptop-meeting.jpg",
+   "type": "photo",
+   "tags": [
+    "team",
+    "laptop",
+    "meeting"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/rMILC1PIwM0",
+   "author": "cherrydeck"
+  },
+  {
+   "id": "photo/team-looking-screen",
+   "file": "photos/unsplash/team-looking-screen.jpg",
+   "type": "photo",
+   "tags": [
+    "team",
+    "looking",
+    "screen"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/UpsEF48wAgk",
+   "author": "cherrydeck"
+  },
+  {
+   "id": "photo/woman-facepalm-cafe",
+   "file": "photos/unsplash/woman-facepalm-cafe.jpg",
+   "type": "photo",
+   "tags": [
+    "woman",
+    "facepalm",
+    "cafe"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/UYgd_Kr6k_w",
+   "author": "joshduke10"
+  },
+  {
+   "id": "photo/woman-thinking-home",
+   "file": "photos/unsplash/woman-thinking-home.jpg",
+   "type": "photo",
+   "tags": [
+    "woman",
+    "thinking",
+    "home"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/gy5SlRW9OGA",
+   "author": "goodfacesagency"
+  },
+  {
+   "id": "photo/woman-thinking-laptop",
+   "file": "photos/unsplash/woman-thinking-laptop.jpg",
+   "type": "photo",
+   "tags": [
+    "woman",
+    "thinking",
+    "laptop"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/uXLgmicKSi4",
+   "author": "bukanadam"
+  },
+  {
+   "id": "render/glass-cube-heart",
+   "file": "renders/glass-cube-heart.jpg",
+   "type": "render-3d",
+   "tags": [
+    "glass",
+    "cube",
+    "heart"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/awhS9GjHwq8",
+   "author": "cdd20"
+  },
+  {
+   "id": "render/glass-cubes",
+   "file": "renders/glass-cubes.jpg",
+   "type": "render-3d",
+   "tags": [
+    "glass",
+    "cubes"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/EiTxaMGCI9I",
+   "author": "fakurian"
+  },
+  {
+   "id": "render/glass-red-shards",
+   "file": "renders/glass-red-shards.jpg",
+   "type": "render-3d",
+   "tags": [
+    "glass",
+    "red",
+    "shards"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/0-vKcHcgHvk",
+   "author": "brechtcorbeel"
+  },
+  {
+   "id": "render/mm-5-phrases-chatgpt",
+   "file": "renders/mm-5-phrases-chatgpt.jpg",
+   "type": "render-3d",
+   "tags": [
+    "mm",
+    "5",
+    "phrases",
+    "chatgpt"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/Hd91p0EzYK8",
+   "author": "muriel_1"
+  },
+  {
+   "id": "render/mm-ai-site-tells",
+   "file": "renders/mm-ai-site-tells.jpg",
+   "type": "render-3d",
+   "tags": [
+    "mm",
+    "ai",
+    "site",
+    "tells"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/4Wk31QvI2PA",
+   "author": "tsd_studio"
+  },
+  {
+   "id": "render/mm-ask-hormozi",
+   "file": "renders/mm-ask-hormozi.jpg",
+   "type": "render-3d",
+   "tags": [
+    "mm",
+    "ask",
+    "hormozi"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/vCp7Q2ACSQg",
+   "author": "muriel_1"
+  },
+  {
+   "id": "render/red-layers",
+   "file": "renders/red-layers.jpg",
+   "type": "render-3d",
+   "tags": [
+    "red",
+    "layers"
+   ],
+   "license": "Unsplash License (free commercial use, no attribution required)",
+   "source": "https://unsplash.com/photos/K7M7dQO-HrA",
+   "author": "warrenumoh"
+  },
+  {
+   "id": "logo/anthropic",
+   "file": "logos/anthropic.svg",
+   "type": "logo",
+   "tags": [
+    "anthropic"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/canva",
+   "file": "logos/canva.svg",
+   "type": "logo",
+   "tags": [
+    "canva"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/claude",
+   "file": "logos/claude.svg",
+   "type": "logo",
+   "tags": [
+    "claude"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/cursor",
+   "file": "logos/cursor.svg",
+   "type": "logo",
+   "tags": [
+    "cursor"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/elevenlabs",
+   "file": "logos/elevenlabs.svg",
+   "type": "logo",
+   "tags": [
+    "elevenlabs"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/figma",
+   "file": "logos/figma.svg",
+   "type": "logo",
+   "tags": [
+    "figma"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/googlegemini",
+   "file": "logos/googlegemini.svg",
+   "type": "logo",
+   "tags": [
+    "googlegemini"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/instagram",
+   "file": "logos/instagram.svg",
+   "type": "logo",
+   "tags": [
+    "instagram"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/notion",
+   "file": "logos/notion.svg",
+   "type": "logo",
+   "tags": [
+    "notion"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/openai",
+   "file": "logos/openai.svg",
+   "type": "logo",
+   "tags": [
+    "openai"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/perplexity",
+   "file": "logos/perplexity.svg",
+   "type": "logo",
+   "tags": [
+    "perplexity"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/telegram",
+   "file": "logos/telegram.svg",
+   "type": "logo",
+   "tags": [
+    "telegram"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "logo/youtube",
+   "file": "logos/youtube.svg",
+   "type": "logo",
+   "tags": [
+    "youtube"
+   ],
+   "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+  },
+  {
+   "id": "icon/abacus",
+   "file": "icons/tabler/abacus.svg",
+   "type": "icon",
+   "tags": [
+    "abacus"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/adjustments-horizontal",
+   "file": "icons/tabler/adjustments-horizontal.svg",
+   "type": "icon",
+   "tags": [
+    "adjustments",
+    "horizontal"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/adjustments",
+   "file": "icons/tabler/adjustments.svg",
+   "type": "icon",
+   "tags": [
+    "adjustments"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/affiliate",
+   "file": "icons/tabler/affiliate.svg",
+   "type": "icon",
+   "tags": [
+    "affiliate"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/alert-circle",
+   "file": "icons/tabler/alert-circle.svg",
+   "type": "icon",
+   "tags": [
+    "alert",
+    "circle"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/alert-triangle",
+   "file": "icons/tabler/alert-triangle.svg",
+   "type": "icon",
+   "tags": [
+    "alert",
+    "triangle"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-back-up",
+   "file": "icons/tabler/arrow-back-up.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "back",
+    "up"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-big-right",
+   "file": "icons/tabler/arrow-big-right.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "big",
+    "right"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-big-up-line",
+   "file": "icons/tabler/arrow-big-up-line.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "big",
+    "up",
+    "line"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-down",
+   "file": "icons/tabler/arrow-down.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "down"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-forward-up",
+   "file": "icons/tabler/arrow-forward-up.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "forward",
+    "up"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-left",
+   "file": "icons/tabler/arrow-left.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "left"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-narrow-left",
+   "file": "icons/tabler/arrow-narrow-left.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "narrow",
+    "left"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-narrow-right",
+   "file": "icons/tabler/arrow-narrow-right.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "narrow",
+    "right"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-right",
+   "file": "icons/tabler/arrow-right.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "right"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/arrow-up",
+   "file": "icons/tabler/arrow-up.svg",
+   "type": "icon",
+   "tags": [
+    "arrow",
+    "up"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/at",
+   "file": "icons/tabler/at.svg",
+   "type": "icon",
+   "tags": [
+    "at"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/backpack",
+   "file": "icons/tabler/backpack.svg",
+   "type": "icon",
+   "tags": [
+    "backpack"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/battery-4",
+   "file": "icons/tabler/battery-4.svg",
+   "type": "icon",
+   "tags": [
+    "battery",
+    "4"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/bell-ringing",
+   "file": "icons/tabler/bell-ringing.svg",
+   "type": "icon",
+   "tags": [
+    "bell",
+    "ringing"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/bell",
+   "file": "icons/tabler/bell.svg",
+   "type": "icon",
+   "tags": [
+    "bell"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/binary-tree",
+   "file": "icons/tabler/binary-tree.svg",
+   "type": "icon",
+   "tags": [
+    "binary",
+    "tree"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/bolt",
+   "file": "icons/tabler/bolt.svg",
+   "type": "icon",
+   "tags": [
+    "bolt"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/bookmark",
+   "file": "icons/tabler/bookmark.svg",
+   "type": "icon",
+   "tags": [
+    "bookmark"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/box",
+   "file": "icons/tabler/box.svg",
+   "type": "icon",
+   "tags": [
+    "box"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/braces",
+   "file": "icons/tabler/braces.svg",
+   "type": "icon",
+   "tags": [
+    "braces"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/brain",
+   "file": "icons/tabler/brain.svg",
+   "type": "icon",
+   "tags": [
+    "brain"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/brand-telegram",
+   "file": "icons/tabler/brand-telegram.svg",
+   "type": "icon",
+   "tags": [
+    "brand",
+    "telegram"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/briefcase",
+   "file": "icons/tabler/briefcase.svg",
+   "type": "icon",
+   "tags": [
+    "briefcase"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/bulb",
+   "file": "icons/tabler/bulb.svg",
+   "type": "icon",
+   "tags": [
+    "bulb"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/calendar",
+   "file": "icons/tabler/calendar.svg",
+   "type": "icon",
+   "tags": [
+    "calendar"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/camera",
+   "file": "icons/tabler/camera.svg",
+   "type": "icon",
+   "tags": [
+    "camera"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chart-arcs",
+   "file": "icons/tabler/chart-arcs.svg",
+   "type": "icon",
+   "tags": [
+    "chart",
+    "arcs"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chart-arrows",
+   "file": "icons/tabler/chart-arrows.svg",
+   "type": "icon",
+   "tags": [
+    "chart",
+    "arrows"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chart-bar",
+   "file": "icons/tabler/chart-bar.svg",
+   "type": "icon",
+   "tags": [
+    "chart",
+    "bar"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chart-line",
+   "file": "icons/tabler/chart-line.svg",
+   "type": "icon",
+   "tags": [
+    "chart",
+    "line"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chart-pie-2",
+   "file": "icons/tabler/chart-pie-2.svg",
+   "type": "icon",
+   "tags": [
+    "chart",
+    "pie",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/check",
+   "file": "icons/tabler/check.svg",
+   "type": "icon",
+   "tags": [
+    "check"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/checkbox",
+   "file": "icons/tabler/checkbox.svg",
+   "type": "icon",
+   "tags": [
+    "checkbox"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/checks",
+   "file": "icons/tabler/checks.svg",
+   "type": "icon",
+   "tags": [
+    "checks"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chevron-down",
+   "file": "icons/tabler/chevron-down.svg",
+   "type": "icon",
+   "tags": [
+    "chevron",
+    "down"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chevron-left",
+   "file": "icons/tabler/chevron-left.svg",
+   "type": "icon",
+   "tags": [
+    "chevron",
+    "left"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chevron-right",
+   "file": "icons/tabler/chevron-right.svg",
+   "type": "icon",
+   "tags": [
+    "chevron",
+    "right"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chevron-up",
+   "file": "icons/tabler/chevron-up.svg",
+   "type": "icon",
+   "tags": [
+    "chevron",
+    "up"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chevrons-down",
+   "file": "icons/tabler/chevrons-down.svg",
+   "type": "icon",
+   "tags": [
+    "chevrons",
+    "down"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/chevrons-right",
+   "file": "icons/tabler/chevrons-right.svg",
+   "type": "icon",
+   "tags": [
+    "chevrons",
+    "right"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/circle-check-filled",
+   "file": "icons/tabler/circle-check-filled.svg",
+   "type": "icon",
+   "tags": [
+    "circle",
+    "check",
+    "filled"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/circle-check",
+   "file": "icons/tabler/circle-check.svg",
+   "type": "icon",
+   "tags": [
+    "circle",
+    "check"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/circle-x",
+   "file": "icons/tabler/circle-x.svg",
+   "type": "icon",
+   "tags": [
+    "circle",
+    "x"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/clipboard-check",
+   "file": "icons/tabler/clipboard-check.svg",
+   "type": "icon",
+   "tags": [
+    "clipboard",
+    "check"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/clipboard-list",
+   "file": "icons/tabler/clipboard-list.svg",
+   "type": "icon",
+   "tags": [
+    "clipboard",
+    "list"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/clipboard",
+   "file": "icons/tabler/clipboard.svg",
+   "type": "icon",
+   "tags": [
+    "clipboard"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/clock-hour-3",
+   "file": "icons/tabler/clock-hour-3.svg",
+   "type": "icon",
+   "tags": [
+    "clock",
+    "hour",
+    "3"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/clock",
+   "file": "icons/tabler/clock.svg",
+   "type": "icon",
+   "tags": [
+    "clock"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/cloud-download",
+   "file": "icons/tabler/cloud-download.svg",
+   "type": "icon",
+   "tags": [
+    "cloud",
+    "download"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/cloud",
+   "file": "icons/tabler/cloud.svg",
+   "type": "icon",
+   "tags": [
+    "cloud"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/code-dots",
+   "file": "icons/tabler/code-dots.svg",
+   "type": "icon",
+   "tags": [
+    "code",
+    "dots"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/code",
+   "file": "icons/tabler/code.svg",
+   "type": "icon",
+   "tags": [
+    "code"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/coin",
+   "file": "icons/tabler/coin.svg",
+   "type": "icon",
+   "tags": [
+    "coin"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/components",
+   "file": "icons/tabler/components.svg",
+   "type": "icon",
+   "tags": [
+    "components"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/cpu",
+   "file": "icons/tabler/cpu.svg",
+   "type": "icon",
+   "tags": [
+    "cpu"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/credit-card",
+   "file": "icons/tabler/credit-card.svg",
+   "type": "icon",
+   "tags": [
+    "credit",
+    "card"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/crown",
+   "file": "icons/tabler/crown.svg",
+   "type": "icon",
+   "tags": [
+    "crown"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/currency-dollar",
+   "file": "icons/tabler/currency-dollar.svg",
+   "type": "icon",
+   "tags": [
+    "currency",
+    "dollar"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/database",
+   "file": "icons/tabler/database.svg",
+   "type": "icon",
+   "tags": [
+    "database"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/device-desktop",
+   "file": "icons/tabler/device-desktop.svg",
+   "type": "icon",
+   "tags": [
+    "device",
+    "desktop"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/device-gamepad-2",
+   "file": "icons/tabler/device-gamepad-2.svg",
+   "type": "icon",
+   "tags": [
+    "device",
+    "gamepad",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/device-laptop",
+   "file": "icons/tabler/device-laptop.svg",
+   "type": "icon",
+   "tags": [
+    "device",
+    "laptop"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/device-mobile",
+   "file": "icons/tabler/device-mobile.svg",
+   "type": "icon",
+   "tags": [
+    "device",
+    "mobile"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/download",
+   "file": "icons/tabler/download.svg",
+   "type": "icon",
+   "tags": [
+    "download"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/edit",
+   "file": "icons/tabler/edit.svg",
+   "type": "icon",
+   "tags": [
+    "edit"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/equal",
+   "file": "icons/tabler/equal.svg",
+   "type": "icon",
+   "tags": [
+    "equal"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/eye-off",
+   "file": "icons/tabler/eye-off.svg",
+   "type": "icon",
+   "tags": [
+    "eye",
+    "off"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/eye",
+   "file": "icons/tabler/eye.svg",
+   "type": "icon",
+   "tags": [
+    "eye"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/file-code-2",
+   "file": "icons/tabler/file-code-2.svg",
+   "type": "icon",
+   "tags": [
+    "file",
+    "code",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/file-text",
+   "file": "icons/tabler/file-text.svg",
+   "type": "icon",
+   "tags": [
+    "file",
+    "text"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/file",
+   "file": "icons/tabler/file.svg",
+   "type": "icon",
+   "tags": [
+    "file"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/filter",
+   "file": "icons/tabler/filter.svg",
+   "type": "icon",
+   "tags": [
+    "filter"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/flag-3",
+   "file": "icons/tabler/flag-3.svg",
+   "type": "icon",
+   "tags": [
+    "flag",
+    "3"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/flame",
+   "file": "icons/tabler/flame.svg",
+   "type": "icon",
+   "tags": [
+    "flame"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/folder-open",
+   "file": "icons/tabler/folder-open.svg",
+   "type": "icon",
+   "tags": [
+    "folder",
+    "open"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/folder",
+   "file": "icons/tabler/folder.svg",
+   "type": "icon",
+   "tags": [
+    "folder"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/git-branch",
+   "file": "icons/tabler/git-branch.svg",
+   "type": "icon",
+   "tags": [
+    "git",
+    "branch"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/git-commit",
+   "file": "icons/tabler/git-commit.svg",
+   "type": "icon",
+   "tags": [
+    "git",
+    "commit"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/git-fork",
+   "file": "icons/tabler/git-fork.svg",
+   "type": "icon",
+   "tags": [
+    "git",
+    "fork"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/git-pull-request",
+   "file": "icons/tabler/git-pull-request.svg",
+   "type": "icon",
+   "tags": [
+    "git",
+    "pull",
+    "request"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/hash",
+   "file": "icons/tabler/hash.svg",
+   "type": "icon",
+   "tags": [
+    "hash"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/headphones",
+   "file": "icons/tabler/headphones.svg",
+   "type": "icon",
+   "tags": [
+    "headphones"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/heart-rate-monitor",
+   "file": "icons/tabler/heart-rate-monitor.svg",
+   "type": "icon",
+   "tags": [
+    "heart",
+    "rate",
+    "monitor"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/heart",
+   "file": "icons/tabler/heart.svg",
+   "type": "icon",
+   "tags": [
+    "heart"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/help-circle",
+   "file": "icons/tabler/help-circle.svg",
+   "type": "icon",
+   "tags": [
+    "help",
+    "circle"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/hierarchy-2",
+   "file": "icons/tabler/hierarchy-2.svg",
+   "type": "icon",
+   "tags": [
+    "hierarchy",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/history",
+   "file": "icons/tabler/history.svg",
+   "type": "icon",
+   "tags": [
+    "history"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/hourglass",
+   "file": "icons/tabler/hourglass.svg",
+   "type": "icon",
+   "tags": [
+    "hourglass"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/id",
+   "file": "icons/tabler/id.svg",
+   "type": "icon",
+   "tags": [
+    "id"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/info-circle",
+   "file": "icons/tabler/info-circle.svg",
+   "type": "icon",
+   "tags": [
+    "info",
+    "circle"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/key",
+   "file": "icons/tabler/key.svg",
+   "type": "icon",
+   "tags": [
+    "key"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/layout-grid",
+   "file": "icons/tabler/layout-grid.svg",
+   "type": "icon",
+   "tags": [
+    "layout",
+    "grid"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/layout-sidebar",
+   "file": "icons/tabler/layout-sidebar.svg",
+   "type": "icon",
+   "tags": [
+    "layout",
+    "sidebar"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/list-check",
+   "file": "icons/tabler/list-check.svg",
+   "type": "icon",
+   "tags": [
+    "list",
+    "check"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/list",
+   "file": "icons/tabler/list.svg",
+   "type": "icon",
+   "tags": [
+    "list"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/loader-2",
+   "file": "icons/tabler/loader-2.svg",
+   "type": "icon",
+   "tags": [
+    "loader",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/lock-square-rounded",
+   "file": "icons/tabler/lock-square-rounded.svg",
+   "type": "icon",
+   "tags": [
+    "lock",
+    "square",
+    "rounded"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/lock",
+   "file": "icons/tabler/lock.svg",
+   "type": "icon",
+   "tags": [
+    "lock"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/mail",
+   "file": "icons/tabler/mail.svg",
+   "type": "icon",
+   "tags": [
+    "mail"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/message-2",
+   "file": "icons/tabler/message-2.svg",
+   "type": "icon",
+   "tags": [
+    "message",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/message-circle",
+   "file": "icons/tabler/message-circle.svg",
+   "type": "icon",
+   "tags": [
+    "message",
+    "circle"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/microphone",
+   "file": "icons/tabler/microphone.svg",
+   "type": "icon",
+   "tags": [
+    "microphone"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/minus",
+   "file": "icons/tabler/minus.svg",
+   "type": "icon",
+   "tags": [
+    "minus"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/music",
+   "file": "icons/tabler/music.svg",
+   "type": "icon",
+   "tags": [
+    "music"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/packages",
+   "file": "icons/tabler/packages.svg",
+   "type": "icon",
+   "tags": [
+    "packages"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/palette",
+   "file": "icons/tabler/palette.svg",
+   "type": "icon",
+   "tags": [
+    "palette"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/pencil",
+   "file": "icons/tabler/pencil.svg",
+   "type": "icon",
+   "tags": [
+    "pencil"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/percentage",
+   "file": "icons/tabler/percentage.svg",
+   "type": "icon",
+   "tags": [
+    "percentage"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/photo",
+   "file": "icons/tabler/photo.svg",
+   "type": "icon",
+   "tags": [
+    "photo"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/player-pause",
+   "file": "icons/tabler/player-pause.svg",
+   "type": "icon",
+   "tags": [
+    "player",
+    "pause"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/player-play",
+   "file": "icons/tabler/player-play.svg",
+   "type": "icon",
+   "tags": [
+    "player",
+    "play"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/player-skip-forward",
+   "file": "icons/tabler/player-skip-forward.svg",
+   "type": "icon",
+   "tags": [
+    "player",
+    "skip",
+    "forward"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/player-stop",
+   "file": "icons/tabler/player-stop.svg",
+   "type": "icon",
+   "tags": [
+    "player",
+    "stop"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/player-track-next",
+   "file": "icons/tabler/player-track-next.svg",
+   "type": "icon",
+   "tags": [
+    "player",
+    "track",
+    "next"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/plug-connected",
+   "file": "icons/tabler/plug-connected.svg",
+   "type": "icon",
+   "tags": [
+    "plug",
+    "connected"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/plug",
+   "file": "icons/tabler/plug.svg",
+   "type": "icon",
+   "tags": [
+    "plug"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/plus",
+   "file": "icons/tabler/plus.svg",
+   "type": "icon",
+   "tags": [
+    "plus"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/point-filled",
+   "file": "icons/tabler/point-filled.svg",
+   "type": "icon",
+   "tags": [
+    "point",
+    "filled"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/point",
+   "file": "icons/tabler/point.svg",
+   "type": "icon",
+   "tags": [
+    "point"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/power",
+   "file": "icons/tabler/power.svg",
+   "type": "icon",
+   "tags": [
+    "power"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/progress-check",
+   "file": "icons/tabler/progress-check.svg",
+   "type": "icon",
+   "tags": [
+    "progress",
+    "check"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/progress",
+   "file": "icons/tabler/progress.svg",
+   "type": "icon",
+   "tags": [
+    "progress"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/refresh",
+   "file": "icons/tabler/refresh.svg",
+   "type": "icon",
+   "tags": [
+    "refresh"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/robot",
+   "file": "icons/tabler/robot.svg",
+   "type": "icon",
+   "tags": [
+    "robot"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/rocket",
+   "file": "icons/tabler/rocket.svg",
+   "type": "icon",
+   "tags": [
+    "rocket"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/rotate-clockwise",
+   "file": "icons/tabler/rotate-clockwise.svg",
+   "type": "icon",
+   "tags": [
+    "rotate",
+    "clockwise"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/route",
+   "file": "icons/tabler/route.svg",
+   "type": "icon",
+   "tags": [
+    "route"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/school",
+   "file": "icons/tabler/school.svg",
+   "type": "icon",
+   "tags": [
+    "school"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/search",
+   "file": "icons/tabler/search.svg",
+   "type": "icon",
+   "tags": [
+    "search"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/send",
+   "file": "icons/tabler/send.svg",
+   "type": "icon",
+   "tags": [
+    "send"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/server-2",
+   "file": "icons/tabler/server-2.svg",
+   "type": "icon",
+   "tags": [
+    "server",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/settings",
+   "file": "icons/tabler/settings.svg",
+   "type": "icon",
+   "tags": [
+    "settings"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/shield-check",
+   "file": "icons/tabler/shield-check.svg",
+   "type": "icon",
+   "tags": [
+    "shield",
+    "check"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/shield",
+   "file": "icons/tabler/shield.svg",
+   "type": "icon",
+   "tags": [
+    "shield"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/sitemap",
+   "file": "icons/tabler/sitemap.svg",
+   "type": "icon",
+   "tags": [
+    "sitemap"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/sparkles",
+   "file": "icons/tabler/sparkles.svg",
+   "type": "icon",
+   "tags": [
+    "sparkles"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/stack-2",
+   "file": "icons/tabler/stack-2.svg",
+   "type": "icon",
+   "tags": [
+    "stack",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/stack-3",
+   "file": "icons/tabler/stack-3.svg",
+   "type": "icon",
+   "tags": [
+    "stack",
+    "3"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/star-filled",
+   "file": "icons/tabler/star-filled.svg",
+   "type": "icon",
+   "tags": [
+    "star",
+    "filled"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/star",
+   "file": "icons/tabler/star.svg",
+   "type": "icon",
+   "tags": [
+    "star"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/target-arrow",
+   "file": "icons/tabler/target-arrow.svg",
+   "type": "icon",
+   "tags": [
+    "target",
+    "arrow"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/target",
+   "file": "icons/tabler/target.svg",
+   "type": "icon",
+   "tags": [
+    "target"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/terminal-2",
+   "file": "icons/tabler/terminal-2.svg",
+   "type": "icon",
+   "tags": [
+    "terminal",
+    "2"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/thumb-up",
+   "file": "icons/tabler/thumb-up.svg",
+   "type": "icon",
+   "tags": [
+    "thumb",
+    "up"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/toggle-right",
+   "file": "icons/tabler/toggle-right.svg",
+   "type": "icon",
+   "tags": [
+    "toggle",
+    "right"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/topology-star-3",
+   "file": "icons/tabler/topology-star-3.svg",
+   "type": "icon",
+   "tags": [
+    "topology",
+    "star",
+    "3"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/trash",
+   "file": "icons/tabler/trash.svg",
+   "type": "icon",
+   "tags": [
+    "trash"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/trophy",
+   "file": "icons/tabler/trophy.svg",
+   "type": "icon",
+   "tags": [
+    "trophy"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/upload",
+   "file": "icons/tabler/upload.svg",
+   "type": "icon",
+   "tags": [
+    "upload"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/user-circle",
+   "file": "icons/tabler/user-circle.svg",
+   "type": "icon",
+   "tags": [
+    "user",
+    "circle"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/user",
+   "file": "icons/tabler/user.svg",
+   "type": "icon",
+   "tags": [
+    "user"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/users",
+   "file": "icons/tabler/users.svg",
+   "type": "icon",
+   "tags": [
+    "users"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/video",
+   "file": "icons/tabler/video.svg",
+   "type": "icon",
+   "tags": [
+    "video"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/volume-3",
+   "file": "icons/tabler/volume-3.svg",
+   "type": "icon",
+   "tags": [
+    "volume",
+    "3"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/volume",
+   "file": "icons/tabler/volume.svg",
+   "type": "icon",
+   "tags": [
+    "volume"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/wallet",
+   "file": "icons/tabler/wallet.svg",
+   "type": "icon",
+   "tags": [
+    "wallet"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/x",
+   "file": "icons/tabler/x.svg",
+   "type": "icon",
+   "tags": [
+    "x"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "screen/3dicons",
+   "file": "screens/3dicons.jpg",
+   "type": "screen",
+   "tags": [
+    "3dicons"
+   ],
+   "license": "скрин сайта, номинативно"
+  },
+  {
+   "id": "screen/fontshare",
+   "file": "screens/fontshare.jpg",
+   "type": "screen",
+   "tags": [
+    "fontshare"
+   ],
+   "license": "скрин сайта, номинативно"
+  },
+  {
+   "id": "screen/google-fonts",
+   "file": "screens/google-fonts.jpg",
+   "type": "screen",
+   "tags": [
+    "google-fonts"
+   ],
+   "license": "скрин сайта, номинативно"
+  },
+  {
+   "id": "screen/mixkit",
+   "file": "screens/mixkit.jpg",
+   "type": "screen",
+   "tags": [
+    "mixkit"
+   ],
+   "license": "скрин сайта, номинативно"
+  },
+  {
+   "id": "screen/tabler",
+   "file": "screens/tabler.jpg",
+   "type": "screen",
+   "tags": [
+    "tabler"
+   ],
+   "license": "скрин сайта, номинативно"
+  },
+  {
+   "id": "screen/unsplash",
+   "file": "screens/unsplash.jpg",
+   "type": "screen",
+   "tags": [
+    "unsplash"
+   ],
+   "license": "скрин сайта, номинативно"
+  },
+  {
+   "id": "icon/arrows-exchange",
+   "file": "icons/tabler/arrows-exchange.svg",
+   "type": "icon",
+   "tags": [
+    "arrows",
+    "exchange"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/copy",
+   "file": "icons/tabler/copy.svg",
+   "type": "icon",
+   "tags": [
+    "copy"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/flag",
+   "file": "icons/tabler/flag.svg",
+   "type": "icon",
+   "tags": [
+    "flag"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/icons",
+   "file": "icons/tabler/icons.svg",
+   "type": "icon",
+   "tags": [
+    "icons"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/layout-list",
+   "file": "icons/tabler/layout-list.svg",
+   "type": "icon",
+   "tags": [
+    "layout",
+    "list"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/link",
+   "file": "icons/tabler/link.svg",
+   "type": "icon",
+   "tags": [
+    "link"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/movie",
+   "file": "icons/tabler/movie.svg",
+   "type": "icon",
+   "tags": [
+    "movie"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/quote",
+   "file": "icons/tabler/quote.svg",
+   "type": "icon",
+   "tags": [
+    "quote"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/repeat",
+   "file": "icons/tabler/repeat.svg",
+   "type": "icon",
+   "tags": [
+    "repeat"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/table",
+   "file": "icons/tabler/table.svg",
+   "type": "icon",
+   "tags": [
+    "table"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/typography",
+   "file": "icons/tabler/typography.svg",
+   "type": "icon",
+   "tags": [
+    "typography"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/writing",
+   "file": "icons/tabler/writing.svg",
+   "type": "icon",
+   "tags": [
+    "writing"
+   ],
+   "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "icon/zoom-question",
+   "file": "icons/tabler/zoom-question.svg",
+   "type": "icon",
+   "tags": [
+    "zoom",
+    "question"
+   ],
+   "license": "MIT, Tabler Icons"
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "handle": "@mm.machine.ru",
+ "design": "mm-reels",
+ "level": "pro",
+ "title": "Claude Code, Codex или Cursor",
+ "host": {
+  "title": "Агенты для кода",
+  "sub": "что выбрать"
+ },
+ "cover": {
+  "hook": "Claude Code, Codex или Cursor. Что [выбрать]",
+  "visual": {
+   "kind": "sticker",
+   "id": "fluent/hammer_and_wrench",
+   "memoji": "laptop"
+  }
+ },
+ "items": [
+  {
+   "kind": "tool",
+   "logo": "logo/claude",
+   "lbl": "Anthropic",
+   "title": "Claude Code",
+   "why": "Агент, который читает кодовую базу, правит файлы и запускает команды.",
+   "where": [
+    "терминал",
+    "VS Code",
+    "JetBrains",
+    "десктоп",
+    "веб",
+    "телефон"
+   ],
+   "pay": "Подписка Pro или Max, либо оплата по API",
+   "say": "Claude Code живёт [везде]",
+   "sticker": "fluent/sparkles"
+  },
+  {
+   "kind": "tool",
+   "logo": "logo/openai",
+   "lbl": "OpenAI",
+   "title": "Codex",
+   "why": "Агент OpenAI для кода. Работает локально и в облаке.",
+   "where": [
+    "CLI",
+    "IDE",
+    "облако",
+    "десктоп",
+    "веб"
+   ],
+   "pay": "Входит во все планы ChatGPT",
+   "say": "Codex уже в твоём [ChatGPT]",
+   "sticker": "fluent/laptop"
+  },
+  {
+   "kind": "tool",
+   "logo": "logo/cursor",
+   "lbl": "Cursor",
+   "title": "Cursor",
+   "why": "Редактор кода со встроенным агентом.",
+   "where": [
+    "свой редактор"
+   ],
+   "pay": "Pro $20 в месяц",
+   "say": "Cursor это [редактор]",
+   "sticker": "fluent/keyboard"
+  },
+  {
+   "kind": "list",
+   "group": "как выбрать",
+   "title": "Моё мнение",
+   "rows": [
+    [
+     "coin",
+     "Уже платишь за Claude Pro, Claude Code у тебя есть"
+    ],
+    [
+     "coin",
+     "Платишь за ChatGPT, Codex у тебя есть"
+    ],
+    [
+     "terminal",
+     "Живёшь в терминале, бери агента в CLI"
+    ],
+    [
+     "code",
+     "Хочешь всё в одном редакторе, смотри Cursor"
+    ]
+   ],
+   "say": "Начни с того, за что [уже] платишь"
+  },
+  {
+   "kind": "meme",
+   "format": "expect",
+   "l_lbl": "план",
+   "left": "Выберу лучший инструмент",
+   "r_lbl": "реальность",
+   "right": "Пользуюсь тем, за что уже плачу",
+   "l_mj": "think",
+   "r_mj": "wink",
+   "say": "И это [нормально]"
+  }
+ ],
+ "final": {
+  "title": "коротко",
+  "list": [
+   [
+    "terminal",
+    "Claude Code: терминал и везде"
+   ],
+   [
+    "cloud",
+    "Codex: входит в ChatGPT"
+   ],
+   [
+    "code",
+    "Cursor: редактор с агентом"
+   ]
+  ],
+  "say": "Начни с того, что [уже] есть",
+  "avatar": "wink",
+  "keyword": "ИИШНИЦА"
+ },
+ "sources": [
+  "https://code.claude.com/docs/en/overview",
+  "https://learn.chatgpt.com/docs",
+  "https://cursor.com/help/account-and-billing/pricing"
+ ],
+ "caption": "Claude Code, Codex или Cursor?\n\nClaude Code: агент в терминале, VS Code, JetBrains, десктопе, вебе и телефоне. Входит в Claude Pro и Max.\nCodex: агент OpenAI в CLI, IDE и облаке. Входит во все планы ChatGPT.\nCursor: редактор кода со встроенным агентом, Pro от $20.\n\nМоё мнение: начни с того, за что уже платишь.\n\nБольше таких разборов в телеграм-канале ИИшница, ссылка в шапке. Напиши в комментариях ИИШНИЦА, и я пришлю тебе подарок."
+}

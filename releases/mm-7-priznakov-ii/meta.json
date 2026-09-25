@@ -1,0 +1,87 @@
+{
+  "id": "mm-7-priznakov-ii",
+  "design": "mm-reels",
+  "title": "7 признаков ИИ-текста",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "photo/woman-facepalm-cafe",
+      "file": "photos/unsplash/woman-facepalm-cafe.jpg",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "source": "https://unsplash.com/photos/UYgd_Kr6k_w",
+      "author": "joshduke10"
+    },
+    {
+      "id": "memoji/oops",
+      "file": "memoji/oops.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/speech_balloon",
+      "file": "stickers/fluent-3d/speech_balloon.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/artist_palette",
+      "file": "stickers/fluent-3d/artist_palette.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/think",
+      "file": "memoji/think.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/face_with_monocle",
+      "file": "stickers/fluent-3d/face_with_monocle.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "photo/man-panic-laptop",
+      "file": "photos/unsplash/man-panic-laptop.jpg",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "source": "https://unsplash.com/photos/Ili1gmB9Jes",
+      "author": "officestock"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Как начинается"
+    },
+    {
+      "id": "03",
+      "label": "Как звучит"
+    },
+    {
+      "id": "04",
+      "label": "О чём говорит"
+    },
+    {
+      "id": "05",
+      "label": "Узнал себя?"
+    },
+    {
+      "id": "06",
+      "label": "итог"
+    }
+  ]
+}

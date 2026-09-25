@@ -1,0 +1,253 @@
+/* mm-reels · карусель в языке наших рилсов (MM/reels/_kit, DESIGN.md):
+   чистый светлый фон #F5F5F7, матовые карты, Liquid Glass только на хроме (плашка ведущего, пилюли),
+   мемоджи Умара как ведущий, капс-субтитры Inter 850 с синей плашкой на одном слове, Tabler в плашках iOS,
+   финал = карточка Telegram-канала и кодовое слово. Трекинг не отрицательный. */
+@font-face{font-family:InterMM;font-weight:100 900;src:url('./assets/fonts/Inter-Cyrillic.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:InterMM;font-weight:100 900;src:url('./assets/fonts/Inter-Latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2190-2199,U+2212,U+2215,U+2248,U+00D7,U+00F7,U+2713,U+25CF}
+:root{--label:#000;--label2:rgba(20,22,40,.66);--label3:rgba(20,22,40,.56);--blue:#007AFF;--tint:#E8F1FF;--red:#FF3B30;--r:38px}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#101114}
+.slide{position:relative;width:1080px;height:1350px;overflow:hidden;isolation:isolate;color:var(--label);font-family:InterMM,Inter,sans-serif;letter-spacing:.005em;-webkit-font-smoothing:antialiased;
+  background:radial-gradient(120% 55% at 50% -8%,#FFFFFF 0%,rgba(255,255,255,0) 60%),#F5F5F7}
+
+/* матовая карта (контент) */
+.glass{position:absolute;border-radius:var(--r);background:linear-gradient(150deg,rgba(255,255,255,.9),rgba(255,255,255,.76));
+  box-shadow:0 30px 60px rgba(20,30,90,.14),0 3px 8px rgba(20,30,90,.07),inset 0 2px 1px rgba(255,255,255,.95),inset 0 0 24px rgba(255,255,255,.35)}
+.glass:after,.lgk:after{content:"";position:absolute;inset:0;border-radius:inherit;padding:2px;pointer-events:none;
+  background:linear-gradient(135deg,#fff 0%,rgba(255,255,255,.35) 22%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.35) 78%,#fff 100%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+/* Liquid Glass (хром) */
+.lgk{position:absolute;background:linear-gradient(150deg,rgba(255,255,255,.55),rgba(255,255,255,.34));
+  box-shadow:0 24px 50px rgba(20,30,90,.16),0 3px 8px rgba(20,30,90,.06),inset 0 2px 1px rgba(255,255,255,.95),inset 0 0 22px rgba(255,255,255,.4)}
+.sym{display:grid;place-items:center;flex:none;color:#fff;border-radius:22%;background:linear-gradient(180deg,#2E8BFF,#0A6CFF);
+  box-shadow:inset 0 1.5px 1px rgba(255,255,255,.45),0 8px 18px rgba(0,122,255,.28)}
+.sym svg{width:56%;height:56%}.sym svg path{stroke-width:1.9}
+.sym.red{background:linear-gradient(180deg,#FF5A52,#E0342B);box-shadow:inset 0 1.5px 1px rgba(255,255,255,.4),0 8px 18px rgba(224,52,43,.28)}
+
+/* хром: счётчик и хэндл в пилюлях */
+.pills{position:absolute;left:60px;right:60px;top:48px;display:flex;justify-content:space-between;z-index:9}
+.pill{height:56px;padding:0 24px;border-radius:999px;display:inline-flex;align-items:center;gap:10px;font:700 22px/1 InterMM;color:var(--label2)}
+.pill i{width:10px;height:10px;border-radius:50%;background:var(--blue)}
+
+/* плашка ведущего (host-plate) */
+.plate{left:60px;top:130px;width:960px;height:150px;border-radius:44px;z-index:6}
+.plate .ava{position:absolute;left:28px;top:22px;width:106px;height:106px;border-radius:50%;background:#fff;overflow:hidden;box-shadow:0 6px 16px rgba(20,30,90,.12)}
+.plate .ava img{width:100%;height:100%;display:block}
+.plate .pt{position:absolute;left:160px;top:34px}
+.plate .pt b{display:block;font:750 38px/1.15 InterMM}
+.plate .pt span{display:block;margin-top:6px;font:500 27px/1.2 InterMM;color:var(--label2)}
+
+/* капс-субтитры с синей плашкой на слове */
+.subs{position:absolute;left:60px;right:60px;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 20px;text-align:center;z-index:7;
+  font:850 66px/1.14 InterMM;letter-spacing:.01em;text-transform:uppercase}
+.subs .hl{position:relative;padding:0 16px;margin:0 -6px;color:#fff}
+.subs .hl:before{content:"";position:absolute;inset:4px 0 0;border-radius:18px;z-index:-1;background:linear-gradient(180deg,#2E8BFF,#0A6CFF);
+  box-shadow:0 10px 24px rgba(0,122,255,.30),inset 0 2px 1px rgba(255,255,255,.4)}
+
+/* ── обложка: медальон с кольцом иконок + мемоджи-ведущий за краем ── */
+.cover .subs{top:170px;font-size:84px;justify-content:flex-start;text-align:left;left:64px;right:64px}
+.cover .med{position:absolute;left:250px;top:720px;width:230px;height:230px;border-radius:50%;z-index:5;display:grid;place-items:center;color:#111}
+.cover .med .disc{position:absolute;inset:0;border-radius:50%}
+.cover .med .ring{position:absolute;inset:-12px;border-radius:50%;border:3px solid rgba(20,22,40,.18)}
+.cover .med svg{position:relative;width:110px;height:110px}
+.cover .orbit .sym{position:absolute;width:104px;height:104px;z-index:4}
+.cover .mj{position:absolute;right:-110px;bottom:-60px;width:680px;z-index:6;filter:drop-shadow(0 30px 40px rgba(20,30,90,.22))}
+.cover .note{position:absolute;left:64px;bottom:64px;z-index:7;height:84px;padding:0 34px;border-radius:999px;display:inline-flex;align-items:center;gap:14px;font:750 30px/1 InterMM}
+.cover .note svg{width:34px;height:34px;color:var(--blue)}
+
+/* ── пункт ── */
+.item .card{left:60px;top:320px;width:960px;padding:44px;z-index:3;display:flex;flex-direction:column;gap:28px}
+.item .hd{display:flex;align-items:center;gap:26px}
+.item .hd .sym{width:112px;height:112px}
+.item .hd .n{font:800 24px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;color:var(--label3);margin-bottom:10px}
+.item .hd h2{font:800 52px/1.08 InterMM}
+.item .why{font:500 34px/1.42 InterMM;color:var(--label2)}
+.item .do{display:flex;align-items:center;gap:18px;padding:24px 28px;border-radius:28px;background:var(--tint);font:700 32px/1.3 InterMM;color:#0A4FC2}
+.item .do svg{width:40px;height:40px;flex:none;color:var(--blue)}
+.item .ban{position:absolute;right:44px;top:44px;height:58px;padding:0 24px;border-radius:999px;display:inline-flex;align-items:center;gap:8px;
+  font:800 22px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:linear-gradient(180deg,#FF5A52,#E0342B);box-shadow:inset 0 1.5px 1px rgba(255,255,255,.4),0 8px 18px rgba(224,52,43,.28)}
+.item .ban svg{width:26px;height:26px}
+.item .subs{bottom:120px}
+.react{position:absolute;right:-30px;bottom:-40px;width:330px;z-index:8;filter:drop-shadow(0 18px 24px rgba(20,30,90,.22))}
+.item.has-react .subs{right:290px;justify-content:flex-start;text-align:left;font-size:58px}
+
+/* ── финал: чек-лист + карточка канала + кодовое слово ── */
+.final .list{left:60px;top:130px;width:960px;padding:30px 36px;z-index:3}
+.final .li{display:flex;align-items:center;gap:22px;height:84px;font:700 34px/1 InterMM;border-bottom:1.5px solid rgba(20,22,40,.08)}
+.final .li:last-child{border-bottom:0}
+.final .li .sym{width:60px;height:60px}
+.final .tg{left:60px;top:640px;width:960px;padding:40px;z-index:3;display:flex;align-items:center;gap:34px}
+.final .tg .ava{width:190px;height:190px;border-radius:50%;background:#fff;flex:none;overflow:hidden;box-shadow:0 20px 40px rgba(20,30,90,.16),0 0 0 7px #fff}
+.final .tg .ava img{width:100%;height:100%}
+.final .tg h2{font:800 54px/1.1 InterMM}
+.final .tg .handle{margin-top:8px;font:600 28px/1 InterMM;color:var(--label3)}
+.final .tg .sub{margin-top:24px;display:inline-flex;align-items:center;gap:14px;height:86px;padding:0 40px;border-radius:999px;font:800 32px/1 InterMM;color:#fff;
+  background:linear-gradient(180deg,#37AEE2,#1E96C8);box-shadow:inset 0 2px 1px rgba(255,255,255,.4),0 12px 26px rgba(30,150,200,.35)}
+.final .tg .sub svg{width:36px;height:36px}
+.final .tg .hint{margin-top:14px;font:600 26px/1.3 InterMM;color:var(--label2)}
+.final .kw{left:120px;top:1040px;width:840px;height:110px;border-radius:999px;z-index:6;display:flex;align-items:center;justify-content:center;gap:18px;font:700 34px/1 InterMM}
+.final .kw svg{width:40px;height:40px;color:var(--blue)}
+.final .kw b{font:850 44px/1 InterMM;letter-spacing:.02em;color:var(--blue)}
+.final .subs{bottom:52px;font-size:46px}
+/* правки v2 */
+.pills .pill{position:relative}
+.subs .pn{margin-left:-20px}
+.cover .med{top:790px;left:240px}
+.item .card{gap:24px}
+.item .ex{left:60px;top:790px;width:960px;padding:30px 34px;z-index:3;display:flex;flex-direction:column;gap:12px}
+.item .exl{font:800 20px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.item .exl.good{color:var(--blue);margin-top:10px}
+.item .msg{align-self:flex-end;max-width:88%;padding:20px 26px;border-radius:30px;border-bottom-right-radius:10px;font:500 29px/1.35 InterMM}
+.item .msg.bad{background:#FFE9E7;color:#B42318;text-decoration:line-through;text-decoration-color:rgba(180,35,24,.55);text-decoration-thickness:2.5px}
+.item .msg.good{background:linear-gradient(180deg,#2E8BFF,#0A6CFF);color:#fff;box-shadow:0 10px 22px rgba(0,122,255,.25)}
+.item .subs{bottom:70px;font-size:58px}
+.item.has-react .ex{width:720px}
+.item.has-react .react{bottom:-30px;width:300px}
+.item.has-react .ex{width:960px}
+.item.has-react .react{width:240px;right:10px;bottom:-20px}
+.item.has-react .subs{right:250px;font-size:54px;bottom:60px}
+
+/* ================= v3 (25.09): типы слайдов и библиотека lib/ ================= */
+.sym.big{width:112px;height:112px;font:850 56px/1 InterMM}
+.stk{position:absolute;z-index:8;width:210px;right:40px;top:300px;filter:drop-shadow(0 18px 24px rgba(20,30,90,.22));transform:rotate(8deg)}
+.exl{font:800 20px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.exl.good{color:var(--blue)}
+/* обложка: 3D-стикер или фото героем */
+.cover .hero-st{position:absolute;right:-120px;bottom:-110px;width:800px;z-index:5;filter:drop-shadow(0 40px 50px rgba(20,30,90,.25));transform:rotate(-8deg)}
+.cover .mj.small{width:380px;right:auto;left:40px;bottom:120px}
+.cover.cv-sticker .note,.cover.cv-photo .note{z-index:9}
+.cover .hero-ph{position:absolute;left:60px;right:-80px;top:640px;bottom:-60px;border-radius:56px;overflow:hidden;z-index:4;box-shadow:0 30px 60px rgba(20,30,90,.18);transform:rotate(-3deg)}
+.cover .hero-ph img{width:100%;height:100%;object-fit:cover}
+.cover.cv-photo .mj.small{left:auto;right:30px;bottom:30px;width:330px;z-index:8}
+/* step */
+.item .card.step{gap:26px}
+.item .prompt{padding:26px 30px;border-radius:28px;background:var(--tint)}
+.item .prompt p{margin-top:12px;font:700 34px/1.35 InterMM;color:#0A4FC2}
+.k-step .stk{top:auto;bottom:250px;right:60px;width:250px}
+/* chat */
+.item .card.chat{gap:18px;padding:36px 40px}
+.card .app{display:flex;align-items:center;gap:18px;margin-bottom:6px}
+.card .app .sym{width:64px;height:64px}
+.card .app b{font:750 32px/1 InterMM}
+.card .app .lbl{margin-left:auto;font:700 20px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;color:var(--label3)}
+.card .msg{max-width:86%;padding:22px 28px;border-radius:32px;font:500 31px/1.36 InterMM}
+.card .msg.me{align-self:flex-end;background:linear-gradient(180deg,#2E8BFF,#0A6CFF);color:#fff;border-bottom-right-radius:10px;box-shadow:0 10px 22px rgba(0,122,255,.25)}
+.card .msg.ctx{align-self:flex-end;background:#E5E5EA;color:#000;border-bottom-right-radius:10px}
+.card .msg.ai{align-self:flex-start;background:#F2F2F7;color:#000;border-bottom-left-radius:10px;border:1.5px solid rgba(20,22,40,.06)}
+.card .msg.ai.good{background:#E9F9EE;border-color:#BDEBCB}
+/* ba */
+.item .ba{position:relative;left:auto;margin:0;width:960px;padding:36px 40px;display:flex;flex-direction:column;gap:18px}
+.k-ba .ba{position:absolute;left:60px}
+.k-ba .ba:not(.good){top:320px}
+.k-ba .ba.good{top:620px;background:linear-gradient(150deg,rgba(232,241,255,.95),rgba(220,234,255,.85))}
+.ba .bef{font:500 36px/1.4 InterMM;color:var(--label2)}
+.ba .aft{font:700 38px/1.38 InterMM;color:#0A2F7A}
+/* quiz */
+.item .card.quiz{gap:26px;padding:48px 44px}
+.quiz .stmt{font:800 56px/1.12 InterMM}
+.stamp{align-self:flex-start;padding:16px 34px;border-radius:22px;font:850 44px/1 InterMM;letter-spacing:.04em;text-transform:uppercase;color:#fff;transform:rotate(-4deg);
+  box-shadow:inset 0 2px 1px rgba(255,255,255,.4),0 12px 26px rgba(0,0,0,.18)}
+.stamp.green{background:linear-gradient(180deg,#3ED36B,#28B455)}.stamp.red{background:linear-gradient(180deg,#FF5A52,#E0342B)}.stamp.orange{background:linear-gradient(180deg,#FFAE33,#FF8A00)}
+/* msg */
+.msgcard{gap:22px}
+.mtext{font:500 33px/1.55 InterMM;color:#1c1c1e}
+.mtext mark{background:#FFE3E0;color:#B42318;border-radius:10px;padding:2px 8px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.mtext sup,.tagm sup{font:800 18px/1 InterMM;color:#fff;background:var(--red);border-radius:999px;padding:3px 8px;margin-left:4px;vertical-align:super}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tagm{padding:12px 18px;border-radius:999px;background:#FFE9E7;color:#B42318;font:700 24px/1 InterMM}
+.tagm sup{margin:0 8px 0 0}
+/* list */
+.listcard{gap:10px}
+.listcard h2{font:800 50px/1.1 InterMM;margin-bottom:10px}
+.listcard .li{display:flex;align-items:center;gap:22px;min-height:104px;border-top:1.5px solid rgba(20,22,40,.07);font:700 36px/1.25 InterMM}
+.listcard .li .sym{width:72px;height:72px}
+/* shot */
+.browser{left:60px;top:320px;width:960px;height:620px;border-radius:40px;overflow:hidden;z-index:3;display:flex;flex-direction:column}
+.bbar{height:64px;flex:none;display:flex;align-items:center;gap:10px;padding:0 26px;background:rgba(242,242,247,.9);border-bottom:1.5px solid rgba(20,22,40,.06)}
+.bbar i{width:14px;height:14px;border-radius:50%;background:#FF5F57}.bbar i:nth-child(2){background:#FEBC2E}.bbar i:nth-child(3){background:#28C840}
+.bbar span{margin-left:22px;flex:1;height:40px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;font:600 22px/1 InterMM;color:var(--label2)}
+.browser img{flex:1;width:100%;object-fit:cover;object-position:top}
+.badge{position:absolute;z-index:7;right:90px;top:300px;padding:16px 26px;border-radius:999px;background:linear-gradient(180deg,#FFAE33,#FF8A00);color:#fff;font:850 26px/1 InterMM;letter-spacing:.04em;text-transform:uppercase;transform:rotate(4deg);box-shadow:0 12px 26px rgba(255,138,0,.35)}
+.shotcap{left:60px;top:970px;width:960px;padding:28px 36px;z-index:4}
+.shotcap b{display:block;font:800 38px/1.15 InterMM}
+.shotcap span{display:block;margin-top:8px;font:500 29px/1.35 InterMM;color:var(--label2)}
+.k-shot .subs{bottom:40px;font-size:50px}
+/* meme */
+.meme2{position:absolute;left:60px;top:320px;width:960px;height:780px;display:grid;grid-template-columns:1fr 1fr;gap:20px;z-index:3}
+.meme2 .mp{position:relative;inset:auto;padding:30px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
+.meme2 .mp img{width:300px;height:300px;object-fit:contain;filter:drop-shadow(0 16px 22px rgba(20,30,90,.18))}
+.meme2 .mp p{font:800 38px/1.2 InterMM}
+.meme2 .mp .exl{align-self:flex-start}
+.memeph{left:60px;top:320px;width:960px;height:800px;z-index:3;overflow:hidden;display:flex;flex-direction:column}
+.memeph .cap{padding:30px 40px;font:850 46px/1.15 InterMM;text-transform:uppercase;text-align:center}
+.memeph img{flex:1;width:100%;object-fit:cover}
+.k-meme .subs{bottom:50px;font-size:50px}
+/* финал: заголовок списка и число строк */
+.final .lt{font:800 30px/1 InterMM;letter-spacing:.06em;text-transform:uppercase;color:var(--label3);padding:14px 0 10px}
+.final.n4 .list .li{height:92px}.final.n6 .list .li,.final.n7 .list .li{height:66px;font-size:30px}
+.final.n6 .tg,.final.n7 .tg{top:700px}.final.n6 .kw,.final.n7 .kw{top:1080px}
+/* v3.1: заполнение, стикеры не на тексте */
+.card .n{font:800 22px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;color:var(--label3)}
+.stk{top:auto;bottom:230px;right:50px;width:300px;transform:rotate(8deg)}
+.k-quiz .card.quiz,.k-step .card.step{padding-right:44px}
+.quiz .stmt{font-size:62px}
+.item .why{font-size:37px}
+.item .prompt p{font-size:38px}
+.item .card.step .hd h2{font-size:60px}
+.k-step .stk{bottom:240px;right:60px;width:300px}
+.bawrap{position:absolute;left:60px;top:320px;width:960px;display:flex;flex-direction:column;gap:14px;z-index:3}
+.bawrap .ba{position:relative;left:auto;top:auto!important;width:100%}
+.ba .bef{font-size:40px}.ba .aft{font-size:42px}
+.arrowdown{align-self:center;width:64px;height:64px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--blue);box-shadow:0 10px 24px rgba(20,30,90,.12)}
+.arrowdown svg{width:34px;height:34px}
+.meme2{height:760px}
+.meme2 .mp{justify-content:center}
+.meme2 .mp img{width:380px;height:380px}
+.meme2 .mp p{font-size:42px}
+.meme2 .mp .exl{position:absolute;top:30px;left:30px}
+.item .card.chat .msg{font-size:34px}
+.listcard .li{min-height:120px;font-size:40px}
+.final.n2 .list .li,.final.n3 .list .li{height:110px;font-size:42px}.final.n2 .list .li .sym,.final.n3 .list .li .sym{width:76px;height:76px}
+.final.n4 .list .li{height:96px;font-size:38px}
+.final.n2 .tg,.final.n3 .tg{top:560px}.final.n2 .kw,.final.n3 .kw{top:980px}
+.item .ban.ok{background:linear-gradient(180deg,#3ED36B,#28B455);box-shadow:inset 0 1.5px 1px rgba(255,255,255,.4),0 8px 18px rgba(40,180,85,.28)}
+.item.has-react .stk{right:auto;left:70px;bottom:250px;width:260px;transform:rotate(-8deg)}
+.k-chat .stk{bottom:240px}
+/* v4: терминал и тарифы (профессиональные темы) */
+.term{position:absolute;left:60px;top:320px;width:960px;z-index:3;border-radius:36px;overflow:hidden;background:#15161A;color:#E6E8EE;padding:0 0 30px;
+  box-shadow:0 30px 60px rgba(20,30,90,.22),0 3px 8px rgba(20,30,90,.1)}
+.tbar{height:60px;display:flex;align-items:center;gap:10px;padding:0 26px;background:#23252B;margin-bottom:22px}
+.tbar i{width:14px;height:14px;border-radius:50%;background:#FF5F57}.tbar i:nth-child(2){background:#FEBC2E}.tbar i:nth-child(3){background:#28C840}
+.tbar span{margin-left:16px;font:600 22px/1 ui-monospace,Menlo,monospace;color:#8A8F9C}
+.tl{padding:6px 34px;font:500 29px/1.4 ui-monospace,Menlo,monospace;white-space:pre-wrap}
+.tl.cmd{color:#fff;font-weight:700;margin-top:10px}.tl.cmd b{color:#4DA3FF;margin-right:14px}
+.tl.out{color:#AEB3C0}.tl.ok{color:#5BD97A}.tl.warn{color:#FFB547}.tl.dim{color:#6C7180;font-size:24px}
+.tl.bar{display:grid;grid-template-columns:300px 1fr 90px;align-items:center;gap:18px;color:#C9CDD8;font-size:26px}
+.tl.bar i{height:22px;border-radius:11px;background:#2C2F37;overflow:hidden;display:block}.tl.bar u{display:block;height:100%;background:linear-gradient(90deg,#2E8BFF,#6AB0FF);border-radius:11px}
+.tl.bar em{font-style:normal;text-align:right}
+.tnote{left:60px;right:60px;bottom:230px;padding:28px 36px;z-index:4}
+.tnote b{display:block;font:800 38px/1.15 InterMM}.tnote span{display:block;margin-top:8px;font:500 30px/1.4 InterMM;color:var(--label2)}
+.k-term .subs{bottom:70px;font-size:54px}
+.pricecard{gap:4px}
+.plogo{width:64px;height:64px;border-radius:16px;background:#fff;padding:8px;box-shadow:0 6px 14px rgba(20,30,90,.12)}
+.pr{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 0;border-top:1.5px solid rgba(20,22,40,.07)}
+.pr b{display:block;font:800 40px/1.1 InterMM}.pr span{display:block;margin-top:6px;font:500 27px/1.3 InterMM;color:var(--label2)}
+.pr em{font:850 48px/1 InterMM;font-style:normal;white-space:nowrap}
+.pr.hot em{color:var(--blue)}.pr.hot b{color:#0A4FC2}
+.pnote{margin-top:14px;padding:20px 26px;border-radius:24px;background:var(--tint);font:600 27px/1.35 InterMM;color:#0A4FC2}
+.toolcard{gap:22px}
+.toolcard .thd{display:flex;align-items:center;gap:26px}
+.tlogo{width:112px;height:112px;border-radius:28px;background:#fff;padding:18px;box-shadow:0 8px 20px rgba(20,30,90,.14)}
+.toolcard h2{font:800 54px/1.08 InterMM}
+.chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:-8px}
+.chip{padding:14px 22px;border-radius:999px;background:#F2F2F7;font:700 27px/1 InterMM;color:#1c1c1e;border:1.5px solid rgba(20,22,40,.06)}
+.final.n8 .list .li{height:60px;font-size:28px}.final.n8 .list .li .sym{width:48px;height:48px}.final.n8 .tg{top:720px}.final.n8 .kw{top:1090px}
+.final.n5 .list .li{height:84px}
+.subs .nw{white-space:nowrap}
+.subs .nw .hl{margin-right:0}
+.subs .nw .pn{margin-left:4px}
+.item .card .hd>div{padding-right:220px}
+.item .card.step .hd>div,.item .card.quiz .hd>div{padding-right:0}
+.listcard .li:nth-child(n+6){min-height:96px}
+.listcard:has(.li:nth-of-type(5)) .li{min-height:92px;font-size:36px}
+.item .card .hd>div{padding-right:300px}

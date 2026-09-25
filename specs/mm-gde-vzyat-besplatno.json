@@ -1,0 +1,102 @@
+{
+ "handle": "@mm.machine.ru",
+ "design": "mm-reels",
+ "title": "Где взять бесплатно",
+ "host": {
+  "title": "Где взять бесплатно",
+  "sub": "шрифты, иконки, фото, звуки"
+ },
+ "cover": {
+  "hook": "Не плати за шрифты и иконки. Вот где брать [бесплатно]",
+  "visual": {
+   "kind": "sticker",
+   "id": "fluent/wrapped_gift",
+   "memoji": "wink"
+  }
+ },
+ "items": [
+  {
+   "kind": "shot",
+   "shot": "screen/google-fonts",
+   "domain": "fonts.google.com",
+   "title": "Шрифты",
+   "why": "Бесплатно, даже для рекламы.",
+   "say": "[Шрифты] тут"
+  },
+  {
+   "kind": "shot",
+   "shot": "screen/fontshare",
+   "domain": "fontshare.com",
+   "title": "Шрифты как у дизайнеров",
+   "why": "Бесплатные гротески и антиквы.",
+   "say": "Или [тут]"
+  },
+  {
+   "kind": "shot",
+   "shot": "screen/tabler",
+   "domain": "tabler.io/icons",
+   "title": "Иконки",
+   "why": "Тысячи линейных иконок в одном стиле.",
+   "say": "[Иконки] здесь"
+  },
+  {
+   "kind": "shot",
+   "shot": "screen/unsplash",
+   "domain": "unsplash.com",
+   "title": "Фото",
+   "why": "Без водяных знаков.",
+   "say": "[Фото] тут"
+  },
+  {
+   "kind": "shot",
+   "shot": "screen/3dicons",
+   "domain": "3dicons.co",
+   "title": "3D-иконки",
+   "why": "Объёмные иконки, бесплатно даже в рекламу.",
+   "badge": "мало кто знает",
+   "say": "А это почти [никто] не знает",
+   "react": "wink"
+  },
+  {
+   "kind": "shot",
+   "shot": "screen/mixkit",
+   "domain": "mixkit.co",
+   "title": "Музыка и звуки",
+   "why": "Перед рекламой проверь лицензию трека.",
+   "say": "Музыка и [звуки]"
+  }
+ ],
+ "final": {
+  "title": "сохрани, чтобы не искать",
+  "list": [
+   [
+    "typography",
+    "fonts.google.com"
+   ],
+   [
+    "typography",
+    "fontshare.com"
+   ],
+   [
+    "icons",
+    "tabler.io/icons"
+   ],
+   [
+    "photo",
+    "unsplash.com"
+   ],
+   [
+    "box",
+    "3dicons.co"
+   ],
+   [
+    "music",
+    "mixkit.co"
+   ]
+  ],
+  "say": "[Сохрани], чтобы не искать",
+  "avatar": "wink",
+  "keyword": "ИИШНИЦА"
+ },
+ "caption": "Не плати за шрифты, иконки и фото.\n\nШрифты: fonts.google.com, fontshare.com\nИконки: tabler.io/icons\nФото: unsplash.com\n3D-иконки: 3dicons.co\nМузыка и звуки: mixkit.co\n\nПеред рекламой проверяй лицензию. Сохрани, чтобы не искать.\n\nБольше таких разборов в телеграм-канале ИИшница, ссылка в шапке. Напиши в комментариях ИИШНИЦА, и я пришлю тебе подарок."
+}

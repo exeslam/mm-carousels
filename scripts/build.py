@@ -52,7 +52,7 @@ for x in [system['css']] + system.get('scripts', []):
     shutil.copy(f'{DS}/{x}', out)
 for src, dst in system['fonts']:
     shutil.copy(os.path.join(ROOT, src), out + '/assets/fonts/' + dst)
-labels = ['обложка'] + [re.sub('<[^>]+>', '', it.get('label', it['h']))[:28] for it in spec['items']] + ['итог']
+labels = ['обложка'] + [re.sub('<[^>]+>', '', it.get('label') or it.get('h') or it.get('title') or it.get('statement') or re.sub(r'[\[\]]', '', it.get('say', '')))[:28] for it in spec['items']] + ['итог']
 json.dump({'id': rid, 'design': design, 'title': spec['title'], 'account': spec['handle'], 'status': spec.get('status', 'awaiting-review'),
            'cover': (json.load(open(out + '/assets/cover-render.json')) if os.path.exists(out + '/assets/cover-render.json') else None), 'assets': ctx.get('used_assets', []), 'icons': system.get('icons_label', 'Tabler (MIT)'), 'font': system.get('font_label', 'Inter (OFL)'),
            'slides': [{'id': f'{i + 1:02d}', 'label': l} for i, l in enumerate(labels)]},

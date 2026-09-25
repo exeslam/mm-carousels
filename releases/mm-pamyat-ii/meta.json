@@ -1,0 +1,91 @@
+{
+  "id": "mm-pamyat-ii",
+  "design": "mm-reels",
+  "title": "Что нейросеть помнит о тебе",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "photo/woman-thinking-laptop",
+      "file": "photos/unsplash/woman-thinking-laptop.jpg",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "source": "https://unsplash.com/photos/uXLgmicKSi4",
+      "author": "bukanadam"
+    },
+    {
+      "id": "memoji/oops",
+      "file": "memoji/oops.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/thinking_face",
+      "file": "stickers/fluent-3d/thinking_face.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/gear",
+      "file": "stickers/fluent-3d/gear.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/robot",
+      "file": "stickers/fluent-3d/robot.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/ghost",
+      "file": "stickers/fluent-3d/ghost.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "photo/man-headache-laptop",
+      "file": "photos/unsplash/man-headache-laptop.jpg",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "source": "https://unsplash.com/photos/1K9T5YiZ2WU",
+      "author": "punttim"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Claude помнит"
+    },
+    {
+      "id": "03",
+      "label": "Пауза или сброс"
+    },
+    {
+      "id": "04",
+      "label": "ChatGPT тоже помнит"
+    },
+    {
+      "id": "05",
+      "label": "Инкогнито-чат"
+    },
+    {
+      "id": "06",
+      "label": "Она правда помнит"
+    },
+    {
+      "id": "07",
+      "label": "итог"
+    }
+  ]
+}

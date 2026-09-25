@@ -1,0 +1,75 @@
+{
+  "id": "mm-4-zadachi-ii",
+  "design": "mm-reels",
+  "title": "4 задачи для ИИ",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "photo/man-asleep-on-laptop",
+      "file": "photos/unsplash/man-asleep-on-laptop.jpg",
+      "license": "Unsplash License (free commercial use, no attribution required)",
+      "source": "https://unsplash.com/photos/Cong7lHgzV4",
+      "author": "silverkblack"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/incoming_envelope",
+      "file": "stickers/fluent-3d/incoming_envelope.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/speech_balloon",
+      "file": "stickers/fluent-3d/speech_balloon.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/spiral_calendar",
+      "file": "stickers/fluent-3d/spiral_calendar.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/clipboard",
+      "file": "stickers/fluent-3d/clipboard.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Выжимка длинных писем"
+    },
+    {
+      "id": "03",
+      "label": "Черновик ответа"
+    },
+    {
+      "id": "04",
+      "label": "План встречи"
+    },
+    {
+      "id": "05",
+      "label": "Таблица из хаоса"
+    },
+    {
+      "id": "06",
+      "label": "итог"
+    }
+  ]
+}

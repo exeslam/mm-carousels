@@ -1,0 +1,97 @@
+{
+  "id": "mm-pravda-ili-mif",
+  "design": "mm-reels",
+  "title": "Правда или миф",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/red_question_mark",
+      "file": "stickers/fluent-3d/red_question_mark.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/think",
+      "file": "memoji/think.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/clapper_board",
+      "file": "stickers/fluent-3d/clapper_board.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/microphone",
+      "file": "stickers/fluent-3d/microphone.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/oops",
+      "file": "memoji/oops.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/money_bag",
+      "file": "stickers/fluent-3d/money_bag.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/memo",
+      "file": "stickers/fluent-3d/memo.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/swear",
+      "file": "memoji/swear.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/warning",
+      "file": "stickers/fluent-3d/warning.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Нейросеть сама смонтирует ри"
+    },
+    {
+      "id": "03",
+      "label": "ИИ-голос звучит как робот"
+    },
+    {
+      "id": "04",
+      "label": "Бесплатную озвучку можно пус"
+    },
+    {
+      "id": "05",
+      "label": "Промпт решает всё"
+    },
+    {
+      "id": "06",
+      "label": "Нейросеть может уверенно вра"
+    },
+    {
+      "id": "07",
+      "label": "итог"
+    }
+  ]
+}

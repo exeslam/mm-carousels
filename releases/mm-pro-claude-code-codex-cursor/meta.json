@@ -1,0 +1,92 @@
+{
+  "id": "mm-pro-claude-code-codex-cursor",
+  "design": "mm-reels",
+  "title": "Claude Code, Codex или Cursor",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/hammer_and_wrench",
+      "file": "stickers/fluent-3d/hammer_and_wrench.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/sparkles",
+      "file": "stickers/fluent-3d/sparkles.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "logo/claude",
+      "file": "logos/claude.svg",
+      "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+    },
+    {
+      "id": "fluent/laptop",
+      "file": "stickers/fluent-3d/laptop.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "logo/openai",
+      "file": "logos/openai.svg",
+      "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+    },
+    {
+      "id": "fluent/keyboard",
+      "file": "stickers/fluent-3d/keyboard.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "logo/cursor",
+      "file": "logos/cursor.svg",
+      "license": "товарный знак владельца, только номинативно (simple-icons CC0 / svg-logos)"
+    },
+    {
+      "id": "memoji/think",
+      "file": "memoji/think.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "Claude Code"
+    },
+    {
+      "id": "03",
+      "label": "Codex"
+    },
+    {
+      "id": "04",
+      "label": "Cursor"
+    },
+    {
+      "id": "05",
+      "label": "Моё мнение"
+    },
+    {
+      "id": "06",
+      "label": "И это нормально"
+    },
+    {
+      "id": "07",
+      "label": "итог"
+    }
+  ]
+}

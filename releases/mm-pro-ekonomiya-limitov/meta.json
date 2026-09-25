@@ -1,0 +1,87 @@
+{
+  "id": "mm-pro-ekonomiya-limitov",
+  "design": "mm-reels",
+  "title": "Как не упираться в лимит",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/hourglass_done",
+      "file": "stickers/fluent-3d/hourglass_done.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/swear",
+      "file": "memoji/swear.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "fluent/money_bag",
+      "file": "stickers/fluent-3d/money_bag.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/gear",
+      "file": "stickers/fluent-3d/gear.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/bullseye",
+      "file": "stickers/fluent-3d/bullseye.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/memo",
+      "file": "stickers/fluent-3d/memo.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "fluent/toolbox",
+      "file": "stickers/fluent-3d/toolbox.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "$13 в день"
+    },
+    {
+      "id": "03",
+      "label": "Модель и усилие по задаче"
+    },
+    {
+      "id": "04",
+      "label": "Конкретика экономит лимит"
+    },
+    {
+      "id": "05",
+      "label": "CLAUDE.md до 200 строк"
+    },
+    {
+      "id": "06",
+      "label": "Из документации"
+    },
+    {
+      "id": "07",
+      "label": "итог"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mm-reels",
+  "title": "Язык наших рилсов (MM/reels/_kit): мемоджи-ведущий, капс-субтитры, карточка канала",
+  "css": "style.css",
+  "scripts": ["liquid.js"],
+  "fonts": [
+    ["assets/fonts/Inter/inter-cyrillic-wght-normal.woff2", "Inter-Cyrillic.woff2"],
+    ["assets/fonts/Inter/inter-latin-wght-normal.woff2", "Inter-Latin.woff2"]
+  ],
+  "icons": "tabler",
+  "check_icon": "tabler/circle-check-filled"
+}
