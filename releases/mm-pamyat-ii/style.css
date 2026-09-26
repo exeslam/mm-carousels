@@ -251,6 +251,69 @@ html,body{background:#101114}
 .listcard .li:nth-child(n+6){min-height:96px}
 .listcard:has(.li:nth-of-type(5)) .li{min-height:92px;font-size:36px}
 .item .card .hd>div{padding-right:300px}
-
-/* 2026-09-25: no top labels (handle, counter) on published slides, request of Umar */
-.pills{display:none!important}
+/* звёзды GitHub */
+.shotcap.has-stars{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.shotcap .stars{flex:none;display:grid;grid-template-columns:auto auto;align-items:center;column-gap:12px;padding:18px 26px;border-radius:28px;
+  background:linear-gradient(180deg,#FFD24D,#FFB300);color:#3D2A00;box-shadow:inset 0 2px 1px rgba(255,255,255,.5),0 12px 26px rgba(255,170,0,.35)}
+.shotcap .stars svg{width:52px;height:52px;grid-row:span 2;fill:#fff;color:#fff}
+.shotcap .stars em{font:850 54px/1 InterMM;font-style:normal}
+.shotcap .stars small{font:800 20px/1 InterMM;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.k-shot .browser{height:600px}
+.k-shot.has-react .react{bottom:-40px;width:210px;right:0}
+/* ================= repo (26.09): звёзды как главный герой ================= */
+.k-repo .rtop{position:absolute;left:64px;right:64px;top:150px;display:flex;align-items:center;gap:32px;z-index:3}
+.rava{width:150px;height:150px;border-radius:36px;background:#fff;object-fit:cover;flex:none;box-shadow:0 24px 50px rgba(20,30,90,.18),0 0 0 1px rgba(20,22,40,.06)}
+.rrank{font:800 24px/1 InterMM;letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.rname{margin-top:10px;font:850 76px/1 InterMM;letter-spacing:.003em}
+.rpath{margin-top:12px;font:500 26px/1 ui-monospace,Menlo,monospace;color:var(--label3)}
+.rstars{position:absolute;left:58px;top:380px;z-index:3;display:grid;grid-template-columns:auto auto;align-items:center;column-gap:22px}
+.rstars b{font:850 190px/.95 InterMM;letter-spacing:0;background:linear-gradient(180deg,#111 30%,#3a3d4a);-webkit-background-clip:text;color:transparent}
+.rstars small{grid-column:2;font:700 30px/1 InterMM;color:var(--label2);margin-top:6px}
+.rstar{grid-row:span 2;width:120px;height:120px;border-radius:32px;display:grid;place-items:center;
+  background:linear-gradient(180deg,#FFCF4D,#FF9F0A);box-shadow:inset 0 2px 1px rgba(255,255,255,.55),0 16px 34px rgba(255,159,10,.35)}
+.rstar svg{width:64px;height:64px;color:#fff;fill:#fff}
+.rwhy{position:absolute;left:64px;width:560px;top:650px;z-index:3;font:600 38px/1.32 InterMM;color:#1c1c1e}
+.rchips{position:absolute;left:64px;width:560px;top:930px;z-index:3;display:flex;flex-wrap:wrap;gap:12px}
+.rchip{padding:14px 22px;border-radius:999px;background:#fff;font:700 26px/1 InterMM;color:var(--label2);box-shadow:0 6px 16px rgba(20,30,90,.08)}
+.rshot{position:absolute;left:660px;top:640px;width:760px;height:860px;border-radius:36px;overflow:hidden;z-index:2;background:#fff;
+  box-shadow:0 40px 80px rgba(20,30,90,.22),0 0 0 1px rgba(20,22,40,.06);transform:rotate(-4deg);transform-origin:0 0}
+.rshot .bbar span{justify-content:flex-start;padding-left:18px;font-size:20px}
+.rshot img{display:block;width:100%;height:calc(100% - 64px);object-fit:cover;object-position:0 0}
+.k-repo .react{right:auto;left:40px;bottom:-30px;width:240px}
+/* обложка stack */
+.cstack{position:absolute;left:64px;top:560px;z-index:6;display:flex}
+.cstack img{width:104px;height:104px;border-radius:28px;background:#fff;object-fit:cover;margin-left:-22px;border:5px solid #F5F5F7;box-shadow:0 12px 26px rgba(20,30,90,.16)}
+.cstack img:first-child{margin-left:0}
+.cbig{position:absolute;left:58px;top:720px;z-index:6;display:grid;grid-template-columns:auto auto;align-items:center;column-gap:20px}
+.cbig b{font:850 170px/.95 InterMM}.cbig small{grid-column:2;font:700 30px/1.2 InterMM;color:var(--label2)}
+.cbig .rstar{width:110px;height:110px}
+.cover .hero-st.star3d{width:620px;right:-150px;bottom:-120px;transform:rotate(12deg)}
+.cover.cv-stack .mj.small{left:40px;bottom:130px;width:280px}
+.cover.cv-stack .subs{font-size:76px}
+.cover.cv-stack .cstack{top:600px}
+.cover.cv-stack .cbig{top:760px}
+.cover.cv-stack .cbig b{font-size:190px}
+.k-repo .rshot{transform:rotate(-3deg)}
+.cover.cv-stack .subs{font-size:68px}
+.cover.cv-stack .cstack{top:610px}
+.cover.cv-stack .cbig{top:790px}
+.cover.cv-stack .cbig small{margin-top:26px}
+.cover.cv-stack .hero-st.star3d{width:520px;right:-130px;bottom:-110px}
+/* финал-рейтинг */
+.fboard .bhead{position:absolute;left:64px;right:64px;top:150px}
+.fboard .bhead h2{margin-top:10px;font:850 72px/1 InterMM}
+.fboard .board{position:absolute;left:60px;right:60px;top:300px;display:flex;flex-direction:column;gap:12px}
+.brow{display:grid;grid-template-columns:44px 72px 1fr auto;align-items:center;gap:20px;height:80px;padding:0 26px 0 20px;border-radius:26px;background:#fff;box-shadow:0 8px 20px rgba(20,30,90,.07)}
+.brow:first-child{background:linear-gradient(180deg,#FFF7E0,#FFFFFF);box-shadow:0 12px 28px rgba(255,159,10,.18)}
+.brow .bn{font:850 30px/1 InterMM;color:var(--label3);text-align:center}
+.brow img{width:60px;height:60px;border-radius:16px;object-fit:cover;box-shadow:0 0 0 1px rgba(20,22,40,.06)}
+.brow b{font:800 36px/1 InterMM}
+.brow em{display:flex;align-items:center;gap:10px;font:850 38px/1 InterMM;font-style:normal}
+.brow em svg{width:32px;height:32px;color:#FF9F0A;fill:#FF9F0A}
+.tgmini{left:60px;right:60px;top:1080px;height:130px;display:flex;align-items:center;gap:22px;padding:0 26px;z-index:3}
+.tgmini .ava{width:90px;height:90px;border-radius:50%;background:#fff;box-shadow:0 8px 18px rgba(20,30,90,.14)}
+.tgmini b{display:block;font:800 36px/1 InterMM}.tgmini span{display:block;margin-top:8px;font:600 24px/1 InterMM;color:var(--label3)}
+.tgmini .sub{margin-left:auto;display:inline-flex;align-items:center;gap:12px;height:72px;padding:0 30px;border-radius:999px;font:800 28px/1 InterMM;color:#fff;
+  background:linear-gradient(180deg,#37AEE2,#1E96C8);box-shadow:inset 0 2px 1px rgba(255,255,255,.4),0 10px 22px rgba(30,150,200,.3)}
+.tgmini .sub svg{width:30px;height:30px}
+.fboard .kw{top:1236px;height:80px;font-size:28px}.fboard .kw b{font-size:36px}

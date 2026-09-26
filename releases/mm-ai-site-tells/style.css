@@ -1,7 +1,7 @@
 /* MM Carousels · дизайн-система mm-apple (одним файлом). Порядок секций важен: каждая следующая уточняет предыдущую. */
 
 /* ========== 1. Основа: Apple HIG — системные цвета, типографика Inter, сгруппированные карточки, столбики, списки ========== */
-/* ds-mm-apple · MM (@mm.machine / @mm.machine.ru)
+/* ds-mm-apple · MM (@laz.creator / @laz.creator)
    По принципам Apple HIG (clarity, deference, depth, Liquid Glass) — на своих ассетах.
    Файлы Apple (SF Pro, New York, SF Symbols, UI kits) НЕ используются: их лицензия только для макетов приложений под Apple.
    Шрифт: Inter (ближайший открытый аналог SF Pro). Трекинг не отрицательный. */

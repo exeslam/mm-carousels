@@ -1,6 +1,6 @@
 # MM Carousels
 
-Пайплайн Instagram-каруселей для @mm.machine.ru: **JSON-спека → HTML → PNG 1080×1350**.
+Пайплайн Instagram-каруселей для @laz.creator: **JSON-спека → HTML → PNG 1080×1350**.
 Три дизайн-системы на одной разметке — любую спеку можно собрать в любой из них:
 
 | Система | Язык | Шрифт | Иконки |
@@ -40,7 +40,7 @@ open releases/mm-5-phrases-chatgpt/contact-sheet.png
 
 ```jsonc
 {
-  "handle": "@mm.machine.ru",
+  "handle": "@laz.creator",
   "title": "5 фраз для ChatGPT",                      // для подписи внизу слайдов
   "cover": {
     "title_html": "5 фраз, после которых <b>ChatGPT</b> перестаёт лить воду",  // <b> = синий акцент
