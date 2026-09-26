@@ -1,0 +1,162 @@
+{
+  "id": "mm-github-top",
+  "design": "mm-reels",
+  "title": "Топ GitHub-репозиториев",
+  "account": "@mm.machine.ru",
+  "status": "awaiting-review",
+  "cover": null,
+  "assets": [
+    {
+      "id": "memoji/laptop",
+      "file": "memoji/laptop.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "logo/gh-n8n-io",
+      "file": "logos/github/n8n-io.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/n8n-io"
+    },
+    {
+      "id": "logo/gh-microsoft",
+      "file": "logos/github/microsoft.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/microsoft"
+    },
+    {
+      "id": "logo/gh-ollama",
+      "file": "logos/github/ollama.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/ollama"
+    },
+    {
+      "id": "logo/gh-open-webui",
+      "file": "logos/github/open-webui.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/open-webui"
+    },
+    {
+      "id": "logo/gh-anthropics",
+      "file": "logos/github/anthropics.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/anthropics"
+    },
+    {
+      "id": "logo/gh-Comfy-Org",
+      "file": "logos/github/Comfy-Org.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/Comfy-Org"
+    },
+    {
+      "id": "logo/gh-browser-use",
+      "file": "logos/github/browser-use.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/browser-use"
+    },
+    {
+      "id": "logo/gh-openai",
+      "file": "logos/github/openai.png",
+      "license": "аватар организации на GitHub, номинативно",
+      "source": "https://github.com/openai"
+    },
+    {
+      "id": "fluent/glowing_star",
+      "file": "stickers/fluent-3d/glowing_star.png",
+      "license": "MIT, Microsoft Fluent Emoji"
+    },
+    {
+      "id": "screen/github-n8n",
+      "file": "screens/github-n8n.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "screen/github-markitdown",
+      "file": "screens/github-markitdown.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "memoji/wink",
+      "file": "memoji/wink.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "screen/github-ollama",
+      "file": "screens/github-ollama.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "screen/github-open-webui",
+      "file": "screens/github-open-webui.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "screen/github-claude-code",
+      "file": "screens/github-claude-code.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "memoji/oops",
+      "file": "memoji/oops.png",
+      "license": "Memoji Умара, только для MM"
+    },
+    {
+      "id": "screen/github-comfyui",
+      "file": "screens/github-comfyui.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "screen/github-browser-use",
+      "file": "screens/github-browser-use.jpg",
+      "license": "скрин сайта, номинативно"
+    },
+    {
+      "id": "screen/github-whisper",
+      "file": "screens/github-whisper.jpg",
+      "license": "скрин сайта, номинативно"
+    }
+  ],
+  "icons": "Tabler (MIT)",
+  "font": "Inter (OFL)",
+  "slides": [
+    {
+      "id": "01",
+      "label": "обложка"
+    },
+    {
+      "id": "02",
+      "label": "n8n"
+    },
+    {
+      "id": "03",
+      "label": "markitdown"
+    },
+    {
+      "id": "04",
+      "label": "ollama"
+    },
+    {
+      "id": "05",
+      "label": "open-webui"
+    },
+    {
+      "id": "06",
+      "label": "claude-code"
+    },
+    {
+      "id": "07",
+      "label": "comfyui"
+    },
+    {
+      "id": "08",
+      "label": "browser-use"
+    },
+    {
+      "id": "09",
+      "label": "whisper"
+    },
+    {
+      "id": "10",
+      "label": "итог"
+    }
+  ]
+}

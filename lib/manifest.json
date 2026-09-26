@@ -1,7 +1,7 @@
 {
  "version": 1,
  "updated": "2026-09-25",
- "count": 389,
+ "count": 407,
  "assets": [
   {
    "id": "memoji/think",
@@ -3859,6 +3859,201 @@
     "question"
    ],
    "license": "MIT, Tabler Icons"
+  },
+  {
+   "id": "screen/github-n8n",
+   "file": "screens/github-n8n.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "n8n"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/n8n-io/n8n"
+  },
+  {
+   "id": "screen/github-markitdown",
+   "file": "screens/github-markitdown.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "markitdown"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/microsoft/markitdown"
+  },
+  {
+   "id": "screen/github-ollama",
+   "file": "screens/github-ollama.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "ollama"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/ollama/ollama"
+  },
+  {
+   "id": "screen/github-open-webui",
+   "file": "screens/github-open-webui.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "open-webui"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/open-webui/open-webui"
+  },
+  {
+   "id": "screen/github-claude-code",
+   "file": "screens/github-claude-code.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "claude-code"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/anthropics/claude-code"
+  },
+  {
+   "id": "screen/github-comfyui",
+   "file": "screens/github-comfyui.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "comfyui"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/Comfy-Org/ComfyUI"
+  },
+  {
+   "id": "screen/github-browser-use",
+   "file": "screens/github-browser-use.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "browser-use"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/browser-use/browser-use"
+  },
+  {
+   "id": "screen/github-whisper",
+   "file": "screens/github-whisper.jpg",
+   "type": "screen",
+   "tags": [
+    "github",
+    "whisper"
+   ],
+   "license": "скрин публичной страницы GitHub, номинативно",
+   "source": "https://github.com/openai/whisper"
+  },
+  {
+   "id": "logo/gh-openai",
+   "file": "logos/github/openai.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "openai"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/openai"
+  },
+  {
+   "id": "logo/gh-anthropics",
+   "file": "logos/github/anthropics.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "anthropics"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/anthropics"
+  },
+  {
+   "id": "logo/gh-microsoft",
+   "file": "logos/github/microsoft.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "microsoft"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/microsoft"
+  },
+  {
+   "id": "logo/gh-browser-use",
+   "file": "logos/github/browser-use.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "browser-use"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/browser-use"
+  },
+  {
+   "id": "logo/gh-open-webui",
+   "file": "logos/github/open-webui.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "open-webui"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/open-webui"
+  },
+  {
+   "id": "logo/gh-ollama",
+   "file": "logos/github/ollama.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "ollama"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/ollama"
+  },
+  {
+   "id": "logo/gh-n8n-io",
+   "file": "logos/github/n8n-io.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "n8n-io"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/n8n-io"
+  },
+  {
+   "id": "logo/gh-Comfy-Org",
+   "file": "logos/github/Comfy-Org.png",
+   "type": "logo",
+   "tags": [
+    "github",
+    "Comfy-Org"
+   ],
+   "license": "аватар организации на GitHub, номинативно",
+   "source": "https://github.com/Comfy-Org"
+  },
+  {
+   "id": "fluent/glowing_star",
+   "file": "stickers/fluent-3d/glowing_star.png",
+   "type": "sticker-3d",
+   "tags": [
+    "glowing",
+    "star"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
+  },
+  {
+   "id": "fluent/star",
+   "file": "stickers/fluent-3d/star.png",
+   "type": "sticker-3d",
+   "tags": [
+    "star"
+   ],
+   "license": "MIT, Microsoft Fluent Emoji"
   }
  ]
 }

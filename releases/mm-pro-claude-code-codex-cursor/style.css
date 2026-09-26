@@ -251,3 +251,6 @@ html,body{background:#101114}
 .listcard .li:nth-child(n+6){min-height:96px}
 .listcard:has(.li:nth-of-type(5)) .li{min-height:92px;font-size:36px}
 .item .card .hd>div{padding-right:300px}
+
+/* 2026-09-26: no top labels on published slides, request of Umar */
+.pills{display:none!important}

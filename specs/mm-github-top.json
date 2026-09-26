@@ -1,0 +1,241 @@
+{
+ "handle": "@mm.machine.ru",
+ "design": "mm-reels",
+ "title": "Топ GitHub-репозиториев",
+ "host": {
+  "title": "Лучшие репозитории",
+  "sub": "звёзды на 26.09.2026"
+ },
+ "cover": {
+  "hook": "8 ИИ-репозиториев, которые знает каждый [разработчик]",
+  "visual": {
+   "kind": "stack",
+   "avatars": [
+    "logo/gh-n8n-io",
+    "logo/gh-microsoft",
+    "logo/gh-ollama",
+    "logo/gh-open-webui",
+    "logo/gh-anthropics",
+    "logo/gh-Comfy-Org",
+    "logo/gh-browser-use",
+    "logo/gh-openai"
+   ],
+   "big": "1,2 млн",
+   "big_lbl": "звёзд на GitHub у этой восьмёрки",
+   "sticker": "fluent/glowing_star"
+  },
+  "note": "листай"
+ },
+ "items": [
+  {
+   "kind": "repo",
+   "rank": 1,
+   "title": "n8n",
+   "repo": "n8n-io/n8n",
+   "avatar": "logo/gh-n8n-io",
+   "stars": "206 тыс",
+   "why": "Автоматизации и ИИ-агенты в визуальном редакторе. Можно поставить к себе бесплатно.",
+   "chips": [
+    "TypeScript",
+    "можно к себе на сервер"
+   ],
+   "shot": "screen/github-n8n"
+  },
+  {
+   "kind": "repo",
+   "rank": 2,
+   "title": "markitdown",
+   "repo": "microsoft/markitdown",
+   "avatar": "logo/gh-microsoft",
+   "stars": "187 тыс",
+   "why": "Любой PDF, Word, Excel или презентацию в чистый текст для нейросети.",
+   "chips": [
+    "Python",
+    "MIT"
+   ],
+   "shot": "screen/github-markitdown"
+  },
+  {
+   "kind": "repo",
+   "rank": 3,
+   "title": "ollama",
+   "repo": "ollama/ollama",
+   "avatar": "logo/gh-ollama",
+   "stars": "182 тыс",
+   "why": "Запускай нейросети прямо на своём компьютере. Без подписки и без интернета.",
+   "chips": [
+    "Go",
+    "MIT",
+    "без интернета"
+   ],
+   "shot": "screen/github-ollama",
+   "react": "wink"
+  },
+  {
+   "kind": "repo",
+   "rank": 4,
+   "title": "open-webui",
+   "repo": "open-webui/open-webui",
+   "avatar": "logo/gh-open-webui",
+   "stars": "153 тыс",
+   "why": "Свой ChatGPT-подобный интерфейс для локальных и облачных моделей.",
+   "chips": [
+    "Python",
+    "свой сервер"
+   ],
+   "shot": "screen/github-open-webui"
+  },
+  {
+   "kind": "repo",
+   "rank": 5,
+   "title": "claude-code",
+   "repo": "anthropics/claude-code",
+   "avatar": "logo/gh-anthropics",
+   "stars": "148 тыс",
+   "why": "Агент для кода от Anthropic. Работает в терминале.",
+   "chips": [
+    "терминал",
+    "нужна подписка"
+   ],
+   "shot": "screen/github-claude-code"
+  },
+  {
+   "kind": "repo",
+   "rank": 6,
+   "title": "comfyui",
+   "repo": "Comfy-Org/ComfyUI",
+   "avatar": "logo/gh-Comfy-Org",
+   "stars": "135 тыс",
+   "why": "Генерация картинок и видео через схему из блоков.",
+   "chips": [
+    "Python",
+    "GPL-3.0"
+   ],
+   "shot": "screen/github-comfyui",
+   "react": "oops"
+  },
+  {
+   "kind": "repo",
+   "rank": 7,
+   "title": "browser-use",
+   "repo": "browser-use/browser-use",
+   "avatar": "logo/gh-browser-use",
+   "stars": "116 тыс",
+   "why": "ИИ-агент, который сам ходит по сайтам и нажимает кнопки.",
+   "chips": [
+    "Python",
+    "MIT"
+   ],
+   "shot": "screen/github-browser-use"
+  },
+  {
+   "kind": "repo",
+   "rank": 8,
+   "title": "whisper",
+   "repo": "openai/whisper",
+   "avatar": "logo/gh-openai",
+   "stars": "110 тыс",
+   "why": "Расшифровка речи в текст от OpenAI. Понимает русский.",
+   "chips": [
+    "Python",
+    "MIT",
+    "русский"
+   ],
+   "shot": "screen/github-whisper"
+  }
+ ],
+ "final": {
+  "title": "звёзды на 26.09.2026",
+  "list": [
+   [
+    "star",
+    "n8n: 206 тыс"
+   ],
+   [
+    "star",
+    "markitdown: 187 тыс"
+   ],
+   [
+    "star",
+    "ollama: 182 тыс"
+   ],
+   [
+    "star",
+    "open-webui: 153 тыс"
+   ],
+   [
+    "star",
+    "claude-code: 148 тыс"
+   ],
+   [
+    "star",
+    "comfyui: 135 тыс"
+   ],
+   [
+    "star",
+    "browser-use: 116 тыс"
+   ],
+   [
+    "star",
+    "whisper: 110 тыс"
+   ]
+  ],
+  "avatar": "wink",
+  "keyword": "ИИШНИЦА",
+  "say": "[Сохрани] список",
+  "board": [
+   [
+    "logo/gh-n8n-io",
+    "n8n",
+    "206 тыс"
+   ],
+   [
+    "logo/gh-microsoft",
+    "markitdown",
+    "187 тыс"
+   ],
+   [
+    "logo/gh-ollama",
+    "ollama",
+    "182 тыс"
+   ],
+   [
+    "logo/gh-open-webui",
+    "open-webui",
+    "153 тыс"
+   ],
+   [
+    "logo/gh-anthropics",
+    "claude-code",
+    "148 тыс"
+   ],
+   [
+    "logo/gh-Comfy-Org",
+    "comfyui",
+    "135 тыс"
+   ],
+   [
+    "logo/gh-browser-use",
+    "browser-use",
+    "116 тыс"
+   ],
+   [
+    "logo/gh-openai",
+    "whisper",
+    "110 тыс"
+   ]
+  ],
+  "head": "Сохрани рейтинг"
+ },
+ "sources": [
+  "https://github.com/n8n-io/n8n",
+  "https://github.com/microsoft/markitdown",
+  "https://github.com/ollama/ollama",
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/anthropics/claude-code",
+  "https://github.com/Comfy-Org/ComfyUI",
+  "https://github.com/browser-use/browser-use",
+  "https://github.com/openai/whisper"
+ ],
+ "caption": "8 репозиториев на GitHub, у каждого больше 100 тысяч звёзд.\n\n1. n8n, 206 тыс звёзд. Автоматизации и ИИ-агенты в визуальном редакторе. Можно поставить к себе бесплатно.\n2. markitdown, 187 тыс звёзд. Любой PDF, Word, Excel или презентацию в чистый текст для нейросети.\n3. ollama, 182 тыс звёзд. Запускай нейросети прямо на своём компьютере. Без подписки и без интернета.\n4. open-webui, 153 тыс звёзд. Свой ChatGPT-подобный интерфейс для локальных и облачных моделей.\n5. claude-code, 148 тыс звёзд. Агент для кода от Anthropic. Работает в терминале.\n6. comfyui, 135 тыс звёзд. Генерация картинок и видео через схему из блоков.\n7. browser-use, 116 тыс звёзд. ИИ-агент, который сам ходит по сайтам и нажимает кнопки.\n8. whisper, 110 тыс звёзд. Расшифровка речи в текст от OpenAI. Понимает русский.\n\nЗвёзды на 26.09.2026. Сохрани, чтобы не искать.\n\nБольше таких подборок в телеграм-канале ИИшница, ссылка в шапке. Напиши в комментариях ИИШНИЦА, и я пришлю тебе подарок."
+}

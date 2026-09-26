@@ -81,6 +81,12 @@ def render(spec, c):
         hero += f'<img class="hero-st" src="{lib(vis["id"])}" alt="">'
         if vis.get('memoji'):
             hero += f'<img class="mj small" src="{mj(vis["memoji"])}" alt="">'
+    elif vis['kind'] == 'stack':
+        avs = ''.join(f'<img src="{lib(a)}" alt="" style="--i:{j}">' for j, a in enumerate(vis['avatars']))
+        hero += (f'<div class="cstack">{avs}</div><div class="cbig"><span class="rstar">{svg("star-filled")}</span><b>{e(vis["big"])}</b><small>{e(vis["big_lbl"])}</small></div>'
+                 f'<img class="hero-st star3d" src="{lib(vis["sticker"])}" alt="">')
+        if vis.get('memoji'):
+            hero += f'<img class="mj small" src="{mj(vis["memoji"])}" alt="">'
     elif vis['kind'] == 'photo':
         hero += (f'<div class="hero-ph"><img src="{lib(vis["id"])}" alt="" style="object-position:{vis.get("pos", "50% 50%")}"></div>')
         if vis.get('memoji'):
@@ -101,6 +107,17 @@ def render(spec, c):
         react = f'<img class="react" src="{mj(it["react"])}" alt="">' if it.get('react') else ''
         sticker = f'<img class="stk" src="{lib(it["sticker"])}" alt="">' if it.get('sticker') else ''
         body = ''
+        if kind == 'repo':
+            chips = ''.join(f'<span class="rchip">{e(x)}</span>' for x in it.get('chips', []))
+            S.append(f'''<section class="slide item k-repo" id="slide-{i:02d}">{pills(i)}
+  <div class="rtop"><img class="rava" src="{lib(it["avatar"])}" alt=""><div><div class="rrank">№ {it.get("rank", k + 1)}</div><h2 class="rname">{e(it["title"])}</h2><div class="rpath">github.com/{e(it["repo"])}</div></div></div>
+  <div class="rstars"><span class="rstar">{svg("star-filled")}</span><b>{e(it["stars"])}</b><small>звёзд на GitHub</small></div>
+  <p class="rwhy">{e(it["why"])}</p>
+  <div class="rchips">{chips}</div>
+  <div class="rshot"><div class="bbar"><i></i><i></i><i></i><span>github.com/{e(it["repo"])}</span></div><img src="{lib(it["shot"])}" alt=""></div>
+  {f'<img class="react" src="{mj(it["react"])}" alt="">' if it.get("react") else ''}
+</section>''')
+            continue
         if kind == 'card':
             body = (f'<div class="card glass"><span class="ban{" ok" if it.get("ban_ok") else ""}">{svg("check" if it.get("ban_ok") else "x")}{e(it.get("ban", "нельзя"))}</span>'
                     f'<div class="hd"><span class="sym{" red" if it.get("red") else ""}">{svg(it["icon"])}</span>'
@@ -147,7 +164,8 @@ def render(spec, c):
             body = (f'<div class="browser glass"><div class="bbar"><i></i><i></i><i></i><span>{e(it["domain"])}</span></div>'
                     f'<img src="{lib(it["shot"])}" alt=""></div>'
                     + (f'<span class="badge">{e(it["badge"])}</span>' if it.get('badge') else '')
-                    + f'<div class="shotcap glass"><b>{e(it["title"])}</b><span>{e(it["why"])}</span></div>')
+                    + f'<div class="shotcap glass{" has-stars" if it.get("stars") else ""}"><div><b>{e(it["title"])}</b><span>{e(it["why"])}</span></div>'
+                    + (f'<div class="stars">{svg("star-filled")}<em>{e(it["stars"])}</em><small>звёзд</small></div>' if it.get('stars') else '') + '</div>')
         elif kind == 'term':
             rows = ''
             for kind_, text in it['lines']:
@@ -186,6 +204,17 @@ def render(spec, c):
 
     # ── финал ──
     f = spec['final']
+    if f.get('board'):
+        ch = f.get('channel', CHANNEL)
+        rows = ''.join(f'<div class="brow"><span class="bn">{j + 1}</span><img src="{lib(r[0])}" alt=""><b>{e(r[1])}</b><em>{svg("star-filled")}{e(r[2])}</em></div>' for j, r in enumerate(f['board']))
+        S.append(f'''<section class="slide final fboard" id="slide-{N:02d}">{pills(N)}
+  <div class="bhead"><div class="rrank">{e(f.get("title", ""))}</div><h2>{e(f.get("head", "Итог"))}</h2></div>
+  <div class="board">{rows}</div>
+  <div class="tgmini glass"><img class="ava" src="{mj(f.get("avatar", "wink"))}" alt=""><div><b>{e(ch["name"])}</b><span>{e(ch["handle"])}</span></div>
+    <div class="sub">{svg("brand-telegram")}Подписаться</div></div>
+  <div class="kw lgk">{svg("message-circle")}Напиши в комментариях <b>{e(f.get("keyword", "ИИШНИЦА"))}</b></div>
+</section>''')
+        return S
     ch = f.get('channel', CHANNEL)
     lis = ''.join(f'<div class="li"><span class="sym{" red" if f.get("red") else ""}">{svg(x[0])}</span>{e(x[1])}</div>' for x in f['list'])
     S.append(f'''<section class="slide final n{len(f["list"])}" id="slide-{N:02d}">{pills(N)}
